@@ -74,7 +74,7 @@ body {
     left: -5px;
     width: 2px;
     height: 1px;
-    border: #FFF 5px solid;
+    border: rgb(255, 255, 255) 5px solid;
     -moz-border-radius: 300px / 150px;
     -webkit-border-radius: 300px / 150px;
     border-radius: 300px / 150px;

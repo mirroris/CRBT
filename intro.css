@@ -1,4 +1,6 @@
-.intro{color: #28424D;
+.intro{
+  color: #28424D;
   font-size: 20px;
-  text-align:right;
+  position:relative;
+  left: 20%
 }

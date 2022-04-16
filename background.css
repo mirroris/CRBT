@@ -2,7 +2,7 @@ body{
 	background-image: url(背景.png); 
 	background-repeat:no-repeat;
 	background-attachment:fixed;
-	width:100%;
+	background-size:cover;
 }
 
 .topbar{

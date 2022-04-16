@@ -1,3 +1,6 @@
-.title{color: #F56E51;
-Font-size: 50px;
+.title{
+  -webkit-text-stroke: 1px #f5f3e7;
+  text-stroke: 1px #F5F3E7;
+  color: #F56E51;
+  Font-size: 50px;
 }

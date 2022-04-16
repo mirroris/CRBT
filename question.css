@@ -2,45 +2,25 @@ html {
     font-size :3em;
 }
 
-.btn,
-a.btn,
-button.btn {
-  font-size: 100%;
-  font-weight: 700; /*font の太さ*/
-  line-height: 1.2;
-  text-align:center;
-  position: relative;
+.answer {
   display: inline-block;
-  width:45%;
-  height:1.1em;
-  cursor: pointer; 
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
   text-align: center;
-  vertical-align: middle;
   text-decoration: none;
-  letter-spacing: 0.1em;
-  color: #212529;
-  border-radius: 0.5rem;
+  outline: none;
+  color: #fff;
+  background-color: #3e8e41;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
 }
 
+.answer:hover {background-color: #3e8e41}
 
-a.btn--blue {
-    color: #fff;
-    background: #00bff8;
-    border-bottom: 5px solid #0090bb;
-  }
-  a.btn--blue:hover {
-    margin-top: 3px;
-    color: #0090bb;
-    background: #00bff8;
-    border-bottom: 2px solid #0090bb;
-  }
-  a.btn--emboss {
-    color: #0090bb;
-    text-shadow: -1px -1px 1px #55d8ff;
-  }
+.answer:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

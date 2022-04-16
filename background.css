@@ -6,5 +6,11 @@ body{
 }
 
 .topbar{
-    background-color:aqua;
+    background-color:429EAB;
+
+}
+
+.adustsize{
+    height:100%;
+    width: auto;
 }

@@ -1,13 +1,14 @@
+
 body {
-    background-color: #3498DB;
-    overflow: hidden;
+    background-color: #3498DB; /*背景色*/
+    overflow: hidden;/*overflow したときの挙動*/
   }
   
   div {
-    margin: 175px auto;
+    margin: 175px auto; /*要素数により異なるが、一つの場合はエレメント周り4辺のマージン*/
   }
   
-  .drop {
+  .drop { /*classは.から始める*/
     position: relative;
     width: 20px;
     height: 20px;

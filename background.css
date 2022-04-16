@@ -1,6 +1,10 @@
 body{
 	background-image: url(背景.png); 
-	backgorund-repeat:no-repeat;
-	backgorund-attachment:fixed;
-	width:100%
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	width:100%;
+}
+
+.topbar{
+    background-color:aqua;
 }

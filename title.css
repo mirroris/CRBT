@@ -4,6 +4,13 @@
   font-weight:bold;
   font-family:"HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
   display :inline-block;
+  animation: shadowing 3s linear 0s 1 normal; 
+}
+
+@keyframes shadowing {
+    100%{
+        opacity : 0;
+    }
 }
 
 .title2{

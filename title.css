@@ -6,6 +6,11 @@
   display :inline-block;
 }
 
+.title2{
+    text-align:right;
+    display:block;
+}
+
 .strokeme {
     color: #F56E51;
     display:inline-block;

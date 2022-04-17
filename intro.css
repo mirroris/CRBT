@@ -1,6 +1,7 @@
 .intro{
   color: #28424D;
-  font-size: 20px;
+  font-size: 30px;
   position:relative;
-  left: 20%
+  left: 20%;
+  font-weight:bold;
 }

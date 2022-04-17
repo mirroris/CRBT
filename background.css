@@ -4,7 +4,10 @@ html{
 }
 
 body{
-	/* background-image: url(背景.png) */
+    
+    overflow-x: hidden;
+    overflow-y: hidden;
+	background-image: url(背景.png);
 	background-repeat:no-repeat;
 	overflow :clip;
     background-color: #AED6D9;

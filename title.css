@@ -1,6 +1,6 @@
 .title{ 
   color: #F56E51;
-  Font-size: 150px;
+  Font-size: 100px;
   font-weight:bold;
   font-family:"HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
   display :inline-block;
@@ -11,7 +11,7 @@
     display:inline-block;
     font-weight:bold;
     font-family:"HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
-    Font-size: 150px;
+    Font-size: 100px;
     position:relative;
 }
 
@@ -20,7 +20,7 @@
     position:absolute;
     left :0px;
     top:0px;
-    Font-size: 150px;
-    font-weight:80%;
+    Font-size: 100px;
+    font-weight:normal;
 }
 

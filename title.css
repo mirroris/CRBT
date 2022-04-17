@@ -1,16 +1,25 @@
 .title{ 
   color: #F56E51;
-  Font-size: 200px;
+  Font-size: 150px;
   font-weight:bold;
   font-family:"HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
   display :inline-block;
 }
 
 .strokeme {
-    color: white;
+    color: #F56E51;
     display:inline-block;
-    text-shadow: -10px -10px 0 #F56E51, 10px -10px 0  #F56E51, -10px 10px 0 #F56E51, 10px 10px 0 #F56E51;
     font-weight:bold;
     font-family:"HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
-    Font-size: 190px;
+    Font-size: 150px;
+    position:relative;
 }
+
+.strokemechild{
+    position:absolute;
+    left :0px;
+    top:0px;
+    Font-size: 150px;
+    font-weight:bolder;
+}
+

@@ -1,5 +1,5 @@
 .startanalyz{
-  display: inline-block;
+  display: block;
   padding: 15px 25px;
   font-size: 24px;
   cursor: pointer;
@@ -7,7 +7,7 @@
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #3e8e41;
+  background-color: #429eab;
   border: none;
   border-radius: 15px;
 }

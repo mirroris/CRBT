@@ -2,11 +2,13 @@
   color: #F56E51;
   Font-size: 50px;
   font-weight:bold;
-  font-family:"HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO"
+  font-family:"HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+  display :inline;
 }
 
 .strokeme {
     color: white;
+    display:inline;
     text-shadow: -1px -1px 0 #F56E51, 1px -1px 0  #F56E51, -1px 1px 0 #F56E51, 1px 1px 0 #F56E51;
     font-weight:bold;
     font-family:"HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";

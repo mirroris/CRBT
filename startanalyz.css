@@ -3,7 +3,6 @@
   padding: 15px 25px;
   font-size: 24px;
   cursor: pointer;
-  text-align: center;
   text-decoration: none;
   outline: none;
   color: #fff;
@@ -12,4 +11,5 @@
   border-radius: 15px;
   width: 50%;
   font-size:50px;
+  text-align: center;
 }

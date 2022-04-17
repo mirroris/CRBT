@@ -4,4 +4,7 @@
   position:relative;
   left: 20%;
   font-weight:bold;
+  display :block;
+  text-align:right;
+  padding:0 10% 0 0;
 }

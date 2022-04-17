@@ -1,4 +1,4 @@
-title{ 
+.title{ 
   color: #F56E51;
   Font-size: 150px;
   font-weight:bold;
@@ -6,7 +6,7 @@ title{
   display :inline-block;
 }
 
-strokeme {
+.strokeme {
     color: #F56E51;
     display:inline-block;
     font-weight:bold;
@@ -15,7 +15,8 @@ strokeme {
     position:relative;
 }
 
-strokemechild{
+.strokemechild{
+    color:white;
     position:absolute;
     left :0px;
     top:0px;

@@ -2,7 +2,9 @@ body{
 	/* background-image: url(背景.png) */
 	background-repeat:no-repeat;
 	overflow :clip;
-    background-color: #AED6D9
+    background-color: #AED6D9;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .topbar{

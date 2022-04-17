@@ -5,6 +5,7 @@ body{
     background-color: #AED6D9;
     overflow-x: hidden;
     overflow-y: scroll;
+    margin: 0; width: 100%;
 }
 
 .topbar{

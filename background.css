@@ -1,7 +1,7 @@
 body{
 	background-image: url(背景.png); 
 	background-repeat:no-repeat;
-	background-size:cover;
+	background-size:auto;
     background-color: #AED6D9
 }
 

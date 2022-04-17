@@ -2,6 +2,7 @@ body{
 	background-image: url(背景.png); 
 	background-repeat:no-repeat;
 	background-size:cover;
+    background-color: #AED6D9
 }
 
 .topbar{

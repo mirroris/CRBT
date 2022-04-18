@@ -18,9 +18,13 @@ body{
 .topbar{
     background-color:#429eab;
     color: #F5F3E7;
+    font-weight:bold;
 }
 
 .adjustsize{
     height:25px;
     width: 25px;
+    position:absolute ;
+    top: 5px;
+    left: 5px;
 }

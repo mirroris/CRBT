@@ -30,6 +30,7 @@
     text-align:right;
     animation: shadowing 2s ease-in 0s 1 normal; 
     animation-delay:1s;
+    opacity:0;
 }
 
 .strokeme {

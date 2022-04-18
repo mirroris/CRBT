@@ -11,22 +11,22 @@ html {
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #3e8e41;
+  background-color: #F56E51;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
 }
 
-.answer:hover {background-color: #3e8e41}
+.answer:hover {background-color: #F56E51}
 
 .answer:active {
-  background-color: #3e8e41;
+  background-color: #F56E51;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 
 .question {
-  background-color: #e0baba;
+  background-color: #F5F3E7;
   border-radius: 15px;
   text-align:center;
 }

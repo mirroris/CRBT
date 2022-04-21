@@ -1,6 +1,6 @@
 .title{ 
   color: #F56E51;
-  Font-size: 2em;
+  Font-size: 65px;
   font-weight:bold;
   font-family:"HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
   display :inline-block;
@@ -14,7 +14,7 @@
 @keyframes shadowing {
     from{
         opacity : 0;
-        transform:translateY(75px)
+        transform:translateY(2em)
     }
     to{
         opacity : 1;
@@ -24,7 +24,7 @@
 
 .title2{ 
     color: #F56E51;
-    Font-size: 2em;
+    Font-size: 65px;
     font-weight:bold;
     font-family:"HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
     text-align:right;
@@ -39,7 +39,7 @@
     display:inline-block;
     font-weight:bold;
     font-family:"HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
-    Font-size: 2em;
+    Font-size: 65px;
     position:relative;
 }
 
@@ -48,7 +48,7 @@
     position:absolute;
     left :0px;
     top:0px;
-    Font-size: 2em;
+    Font-size: 65px;
     font-weight:300;
 }
 

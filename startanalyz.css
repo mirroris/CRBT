@@ -1,7 +1,7 @@
 .startanalyz{
   display: block;
   padding: 15px 25px;
-  font-size: 2em;
+  font-size: 5vw;
   cursor: pointer;
   text-decoration: none;
   outline: none;
@@ -12,6 +12,7 @@
   width: 50%;
   font-size:50px;
   text-align:center;
+
 }
 
 .analyz{

@@ -21,17 +21,9 @@ body{
     font-weight:bold;
 }
 
-.flex {
-    display: flex; /*横並び*/
-  }
-  .flex .image {
+.adjustsize{
+    height:25px;
     width: 25px;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
     position:absolute ;
-  }
-  .flex .text {
-    margin: 0 0 0 px;
-    padding: 0;
-  }
+    top:px;
+}

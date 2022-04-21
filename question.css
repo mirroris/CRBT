@@ -1,8 +1,12 @@
 html {
-    font-size :5vw;
+    font-size :3vw;
     padding:5%;
 }
 
+html2 {
+  font-size :3vw;
+  padding:5%;
+}
 .answer {
   display: inline-block;
   padding: 15px 25px;

@@ -1,12 +1,28 @@
 html {
     font-size :3vw;
-    padding:5%;
+    padding:5% 5%;
 }
 
 html2 {
   font-size :3vw;
-  padding:5%;
+  padding:5% 5%;
 }
+
+html3 {
+  font-size :3vw;
+  padding:5% 5%;
+}
+
+html4 {
+  font-size :3vw;
+  padding:5% 5%;
+}
+
+html5 {
+  font-size :3vw;
+  padding:5% 5%;
+}
+
 .answer {
   display: inline-block;
   padding: 5% 5%;

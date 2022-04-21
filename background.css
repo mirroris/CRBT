@@ -21,15 +21,6 @@ body{
     font-weight:bold;
 }
 
-figure.side_image{
-    display: inline-block;
-}
-
-p.side_text{
-    display:inline-block;
-    
-}
-
 .adjustsize{
     height:25px;
     width: 25px;

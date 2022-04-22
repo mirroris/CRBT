@@ -2,7 +2,7 @@
   color: #F56E51;
   Font-size: 7vw;
   font-weight:bold;
-  font-family: meiryo,HiraKakuProN-W3,"ヒラギノ明朝 ProN W3",sans-serif;
+  font-family: "meiryo","HiraKakuProN-W3","ヒラギノ明朝 ProN W3",sans-serif;
   display :inline-block;
   animation-name: shadowing;
   animation-duration:1s;
@@ -26,7 +26,7 @@
     color: #F56E51;
     Font-size: 7vw;
     font-weight:bold;
-    font-family: meiryo,HiraKakuProN-W3,"ヒラギノ明朝 ProN W3",sans-serif;
+    font-family: "meiryo","HiraKakuProN-W3","ヒラギノ明朝 ProN W3",sans-serif;
     text-align:right;
     animation: shadowing 2s ease-in 0s 1 normal; 
     animation-delay:1s;
@@ -38,7 +38,7 @@
     color: #F56E51;
     display:inline-block;
     font-weight:bold;
-    font-family: meiryo,HiraKakuProN-W3,"ヒラギノ明朝 ProN W3",sans-serif;
+    font-family: "meiryo","HiraKakuProN-W3","ヒラギノ明朝 ProN W3",sans-serif;
     Font-size: 7vw;
     position:relative;
 }

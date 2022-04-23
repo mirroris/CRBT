@@ -23,6 +23,6 @@
 .adjust{
   display: inline-block;
   filter: sepia(80%);
-  height: auto;
-  width: 10%;
+  height: 50px;
+  width: auto;
 }

@@ -9,7 +9,7 @@
   animation-fill-mode:forwards; 
   animation-delay:1s;
   opacity: 0;
-  margin-top: 10%;
+  margin-top: 3%;
 }
 
 @keyframes shadowing {

@@ -24,7 +24,9 @@
   text-align: center;
   margin:1vw,0,1vw,0;
   width:fit-content;
-  margin:auto;
+ margin:auto;
+  margin-top:1vw;
+  margin-bottom:1vw; 
 }
 
 .answer:hover {background-color: #F5F3E7}

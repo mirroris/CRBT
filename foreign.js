@@ -1,7 +1,7 @@
 function oneofFour(num){
     let idname = "question"+num;
-    console.log("idname");
-    let question = document.getElementsById(idname);
-    questin.style.display = none;
-    return;
+    console.log(idname);
+    var question = document.getElementById(idname);
+  question.style.display = "none";
+  return;
 }

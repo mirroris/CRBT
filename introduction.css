@@ -23,7 +23,34 @@
 .adjust{
   display: inline-block;
   filter: sepia(80%);
-  height: 10%;
-  width: auto;
+}
+
+.adjust1{
+  height: auto;
+  width: 10%;
+  padding:0 5% 0 0;
+}
+
+.adjust2{
+  height: auto;
+  width: 5%;
+  padding:0 5% 0 0;
+}
+
+.adjust3{
+  height: auto;
+  width: 5%;
+  padding:0 5% 0 0;
+}
+
+.adjust4{
+  height: auto;
+  width: 5%;
+  padding:0 5% 0 0;
+}
+
+.adjust5{
+  height: auto;
+  width: 5%;
   padding:0 5% 0 0;
 }

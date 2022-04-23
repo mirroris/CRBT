@@ -1,9 +1,8 @@
-function oneofFour(ansary,){
-    this.style.color = red;
-    for(let i=0; i<4; i++){
-        if()
-        console.log("turn");
-    }
-    document.getElementById("")
+function oneofFour(num){
+    let idname = "question"+num;
+    console.log("idname");
+    let question = document.getElementsById(idname);
+
+    questin.style.display = none;
     return;
 }

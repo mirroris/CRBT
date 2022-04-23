@@ -24,6 +24,7 @@
   display: inline-block;
   filter: sepia(80%);
   text-align: center; 
+  margin-top: 3%;
 }
 
 .adjust1{

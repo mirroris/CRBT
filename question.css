@@ -13,7 +13,7 @@
   border: none;
   border-radius: 15px;
   box-shadow: 0 4px #999;
-  margin: 5%;
+  margin: 3%;
 }
 
 .answer:hover {background-color: #F56E51}
@@ -27,7 +27,7 @@
 
 .question {
   font-weight:bold;
-  color: #F5F3E7;
+  background-color: #F5F3E7;
   border-radius: 15px;
   text-align:center;
   

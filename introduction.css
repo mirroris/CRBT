@@ -18,6 +18,8 @@
   text-align:center;
   padding:0 5% 0 0;
   margin-bottom: 3%;
+  margin-top: 3%;
+  line-height: 120%;
 }
 
 .adjust{
@@ -36,24 +38,27 @@
 
 .adjust2{
   height: auto;
-  width: 25%;
+  width: 24%;
   padding:0 0 0 0;
 }
 
 .adjust3{
   height: auto;
-  width: 15%;
+  width: 13%;
   padding:0 0 0 0;
+  margin-top: 0%;
 }
 
 .adjust4{
   height: auto;
-  width: 16%;
+  width: 14%;
   padding:0 0 0 0;
+  margin-top: 0%;
 }
 
 .adjust5{
   height: auto;
   width: 15%;
   padding:0 0 0 0;
+  margin-top: 0%;
 }

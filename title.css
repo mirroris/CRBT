@@ -9,9 +9,8 @@
   animation-fill-mode:forwards; 
   animation-delay:1s;
   opacity: 0;
-  margin-top: 4%;
-  margin-left: 2%;
-  margin-right: 10%;
+  margin-top: 3%;
+  margin-left: 1%;
 }
 
 @keyframes shadowing {
@@ -35,6 +34,7 @@
     animation-delay:1s;
     opacity:0;
     animation-fill-mode:forwards; 
+    margin-left: 3%;
 }
 
 .strokeme {

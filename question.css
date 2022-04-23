@@ -5,6 +5,7 @@
   width:100%;
   background-color:white;
   position :relative;
+  display:block;
 }
 
 .answer {

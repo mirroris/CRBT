@@ -23,6 +23,7 @@
 .adjust{
   display: inline-block;
   filter: sepia(80%);
+  margin : 0 auto
 }
 
 .adjust1{

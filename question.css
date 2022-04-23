@@ -3,7 +3,7 @@
   text-align:center;
   top :30px;
   width:100%;
-  background-color:black;
+  background-color:white;
 }
 
 .answer {
@@ -21,6 +21,7 @@
   border-radius: 15px;
   box-shadow: 0 4px #999;
   margin: 3%;
+  text-align: center;
 }
 
 .answer:hover {background-color: #F5F3E7}

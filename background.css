@@ -12,7 +12,6 @@ body{
 	overflow :clip;
     background-color: #AED6D9;
     position : relative;
-    margin: 0; width: 100%;
 }
 
 .topbar{

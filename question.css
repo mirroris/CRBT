@@ -1,4 +1,9 @@
 
+.questionlist{
+  text-align:center;
+  top :30px;
+}
+
 .answer {
   display: block;
   padding: 2% 2%;
@@ -26,6 +31,7 @@
 }
 
 .question {
+  display :block;
   font-weight:bold;
   border-radius: 15px;
   text-align:center;
@@ -33,9 +39,4 @@
   font-size :3vw;
   font-family: "meiryo","HiraKakuProN-W3","ヒラギノ明朝 ProN W3",sans-serif;
   width :60%;
-}
-
-.questionlist{
-  text-align:center;
-  
 }

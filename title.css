@@ -34,6 +34,7 @@
     animation-delay:1s;
     opacity:0;
     animation-fill-mode:forwards; 
+    margin-left: 3%;
 }
 
 .strokeme {

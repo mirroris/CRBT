@@ -24,35 +24,36 @@
   display: inline-block;
   filter: sepia(80%);
   text-align: center; 
-  margin-top: 3%;
+  margin-top: -10%;
 }
 
 .adjust1{
   height: auto;
   width: 15%;
   padding:0 0 0 0;
+  margin-top: -5%;
 }
 
 .adjust2{
   height: auto;
-  width: 20%;
+  width: 25%;
   padding:0 0 0 0;
 }
 
 .adjust3{
   height: auto;
-  width: 10%;
+  width: 15%;
   padding:0 0 0 0;
 }
 
 .adjust4{
   height: auto;
-  width: 10%;
+  width: 16%;
   padding:0 0 0 0;
 }
 
 .adjust5{
   height: auto;
-  width: 14%;
+  width: 15%;
   padding:0 0 0 0;
 }

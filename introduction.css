@@ -3,7 +3,7 @@
   font-size: 3vw;
   position:relative;
   font-family: "meiryo","HiraKakuProN-W3","ヒラギノ明朝 ProN W3",sans-serif;
-  display :block;
+  display :inline-block;
   text-align:right;
   padding:3% 3% 0 0;
   margin-bottom: 3%;
@@ -15,7 +15,7 @@
   font-weight: 300;
   position:relative;
   font-family: "meiryo","HiraKakuProN-W3","ヒラギノ明朝 ProN W3",sans-serif;
-  display :block;
+  display :inline-block;
   text-align:center;
   margin-bottom: 3%;
   margin-top: 3%;

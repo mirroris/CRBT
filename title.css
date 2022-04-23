@@ -1,6 +1,6 @@
 .title{ 
   color: #F56E51;
-  Font-size: 7vw;
+  Font-size: 8vw;
   font-weight:bold;
   font-family: "meiryo","HiraKakuProN-W3","ヒラギノ明朝 ProN W3",sans-serif;
   display :inline-block;
@@ -9,8 +9,8 @@
   animation-fill-mode:forwards; 
   animation-delay:1s;
   opacity: 0;
-  margin-top: 3%;
-  margin-left: 1%;
+  margin-top: 5%;
+  margin-left: 2%;
 }
 
 @keyframes shadowing {
@@ -26,14 +26,15 @@
 
 .title2{ 
     color: #F56E51;
-    Font-size: 7vw;
+    Font-size: 8vw;
     font-weight:bold;
     font-family: "meiryo","HiraKakuProN-W3","ヒラギノ明朝 ProN W3",sans-serif;
     text-align:right;
     animation: shadowing 2s ease-in 0s 1 normal; 
     animation-delay:1s;
     opacity:0;
-    animation-fill-mode:forwards; 
+    animation-fill-mode:forwards;
+    margin-top: 3%; 
     margin-left: 3%;
 }
 
@@ -42,7 +43,7 @@
     display:inline-block;
     font-weight:bold;
     font-family: "meiryo","HiraKakuProN-W3","ヒラギノ明朝 ProN W3",sans-serif;
-    Font-size: 7vw;
+    Font-size: 8vw;
     position:relative;
 }
 

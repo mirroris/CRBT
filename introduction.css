@@ -25,4 +25,5 @@
   filter: sepia(80%);
   height: 50px;
   width: auto;
+  padding:0 5% 0 0;
 }

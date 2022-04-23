@@ -5,7 +5,7 @@
   font-family: "meiryo","HiraKakuProN-W3","ヒラギノ明朝 ProN W3",sans-serif;
   display :block;
   text-align:right;
-  padding:0 5% 0 0;
+  padding:3% 3% 0 0;
 }
 
 .miniintro{
@@ -24,6 +24,6 @@
   display: inline-block;
   filter: sepia(100%);
   padding:0 5% 0 0;
-  height: 50%;
+  height: 20%;
   width: auto;
 }

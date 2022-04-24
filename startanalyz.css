@@ -12,10 +12,7 @@
   font-weight: normal;
   font-family: "meiryo","HiraKakuProN-W3","ヒラギノ明朝 ProN W3",sans-serif;
   text-align:center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin: 5% auto 5% auto;
 }
 
 .analyz{

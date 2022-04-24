@@ -13,10 +13,3 @@
 }
 
 /*========= waveを描画するエリア設定 ===============*/
-
-canvas{
-    position: absolute;
-    bottom: 0;
-  left:0;
-    width: 100%;
-}

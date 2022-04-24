@@ -47,3 +47,10 @@
   font-family: "meiryo","HiraKakuProN-W3","ヒラギノ明朝 ProN W3",sans-serif;
   margin:auto;
 }
+
+.backbutton{
+  display:block;
+  position:absolute;
+  left:20vw;
+  bottom:10vw;
+}

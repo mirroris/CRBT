@@ -11,15 +11,19 @@
         <script src = "foreign.js"></script>
         
       <div class = "questionlist">
+        <script> 
+          let num = 0;
+          oneofFour();
+        </script>
         <div class = "question" id = "question1">
         Q.1 あなたが直感的に心が傷む写真はどれですか？（写真問題）
-        <a class="answer" id = "answer1" onclick="oneofFour(1)">プラスチックを食べて苦しむカメ</a>
-        <a class="answer" id = "answer2"  onclick="oneofFour(2)">大気汚染が深刻化する街並み</a>
-        <a class="answer" id = "answer3"  onclick="oneofFour(3)">海面上昇で苦しむ人々</a>
-        <a class="answer" id = "answer4"  onclick="oneofFour(4)">ゴミが大量に捨てられ異臭を放つ山</a>
+        <a class="answer" id = "answer1" onclick="oneofFour()">プラスチックを食べて苦しむカメ</a>
+        <a class="answer" id = "answer2"  onclick="oneofFour()">大気汚染が深刻化する街並み</a>
+        <a class="answer" id = "answer3"  onclick="oneofFour()">海面上昇で苦しむ人々</a>
+        <a class="answer" id = "answer4"  onclick="oneofFour()">ゴミが大量に捨てられ異臭を放つ山</a>
         </div>
 
-        <div class = "question">
+        <div class = "question" id = "question2">
           Q.2 あなたはどの写真の風景に心引かれますか？（写真問題）
           <a class="answer" onclick="oneofFour()">レトロ</a>
           <a class="answer" onclick="oneofFour()">近代的</a>
@@ -27,7 +31,7 @@
           <a class="answer" onclick="oneofFour()">自然系</a>
         </div>
 
-        <div class = "question">
+        <div class = "question" id = "question3">
           Q.3 授業でいつも座る席はどこ？<br>
           <a class="answer" onclick="oneofFour()">①前列、真ん中</a>
           <a class="answer" onclick="oneofFour()">②左端</a>
@@ -35,7 +39,7 @@
           <a class="answer" onclick="oneofFour()">④後列</a>
         </div>
 
-        <div class = "question">
+        <div class = "question" id = "question4">
           Q.4 突然午後から授業が休みになった。どうする？<br>
           <a class="answer" onclick="oneofFour()">友達とおしゃべりする</a>
           <a class="answer" onclick="oneofFour()">図書館で読書または勉強する</a>

@@ -11,11 +11,6 @@
         <script src = "foreign.js"></script>
         
       <div class = "questionlist">
-        <script> 
-          var num = 1;
-          let initquestion = document.getElementById("question1");
-          initquestion.style.display = "block";
-        </script>
 
         <div class = "question" id = "question1">
           Q.1 あなたが直感的に心が傷む写真はどれですか？（写真問題）
@@ -24,6 +19,13 @@
           <a class="answer" id = "answer3"  onclick="oneofFour()">海面上昇で苦しむ人々</a>
           <a class="answer" id = "answer4"  onclick="oneofFour()">ゴミが大量に捨てられ異臭を放つ山</a>
         </div>
+
+        <!-- make first question visible --> 
+        <script> 
+          var num = 1;
+          let initquestion = document.getElementById("question1");
+          initquestion.style.display = "block";
+        </script>
 
         <div class = "question" id = "question2">
           Q.2 あなたはどの写真の風景に心引かれますか？（写真問題）

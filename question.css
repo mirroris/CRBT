@@ -51,10 +51,13 @@
 .backbutton{
   display:block;
   position:absolute;
+  border-radius: 3vw;
   left:2vw;
   bottom:1vw;
-  padding: 2% 2%;
+  padding: 0.5vw;
   font-size: 2vw;
   color: #28424D;
+  box-shadow: 0 4px #999;
+  text-align: center;
   background-color: #F5F3E7;
 }

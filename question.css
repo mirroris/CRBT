@@ -51,6 +51,7 @@
 .backbutton{
   display:block;
   position:absolute;
+  cursor: pointer;
   border-radius: 3vw;
   left:2vw;
   bottom:1vw;

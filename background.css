@@ -9,8 +9,6 @@ img{
 
 body{
     padding-bottom:5vw;
-    overflow-x: hidden;
-    overflow-y: hidden;
 	/*background-image: url(背景.png);*/
 	background-repeat:no-repeat;
 	overflow :clip;

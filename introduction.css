@@ -31,7 +31,34 @@
   filter: sepia(100%);
   text-align: center; 
   margin-top: 5%;
-  height: auto;
+}
+
+.adjust1{
   width: 3%;
+  height: auto;
+  padding:0 0 0 0;
+}
+
+.adjust2{
+  width: 3%;
+  height: auto;
+  padding:0 0 0 0;
+}
+
+.adjust3{
+  width: 3%;
+  height: auto;
+  padding:0 0 0 0;
+}
+
+.adjust4{
+  width: 3%;
+  height: auto;
+  padding:0 0 0 0;
+}
+
+.adjust5{
+  width: 3%;
+  height: auto;
   padding:0 0 0 0;
 }

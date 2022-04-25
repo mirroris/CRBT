@@ -31,7 +31,7 @@
   filter: sepia(100%);
   text-align: center; 
   margin-top: 5%;
-  height: 3%;
-  width: auto;
+  height: auto;
+  width: 3%;
   padding:0 0 0 0;
 }

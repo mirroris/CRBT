@@ -28,7 +28,7 @@
 
 .adjust{
   display: inline-block;
-  filter: sepia(90%);
+  filter: sepia(100%);
   text-align: center; 
   margin-top: 5%;
 }

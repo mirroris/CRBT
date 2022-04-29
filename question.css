@@ -23,7 +23,7 @@
   border-radius: 15px;
   box-shadow: 0 4px #999;
   text-align: center;
-  margin:1vw,0,1vw,0;
+  margin:1vw,1vw,1vw,1vw;
   width:fit-content;
 }
 
@@ -68,46 +68,48 @@
 }
 
 .pic2{
-  width: 20%;
+  width: 80%;
   height: auto;
   padding: 0.5vw;
 }
 
 .pic3{
-  width: 20%;
+  width: 80%;
   height: auto;
   padding: 0.5vw;
 }
 
 .pic4{
-  width: 20%;
+  width: 80%;
   height: auto;
 }
 
 .pic4{
-  width: 20%;
+  width: 80%;
   height: auto;
   padding: 0.5vw;
 }
 
 .pic5{
-  width: 20%;
+  width: 80%;
   height: auto;
   padding: 0.5vw;
 }
 
 .pic6{
-  width: 20%;
+  width: 80%;
   height: auto;
   padding: 0.5vw;
 }
 
 .pic7{
-  width: 20%;
+  width: 80%;
   height: auto;
+  padding: 0.5vw;
 }
 
 .pic8{
-  width: 20%;
+  width: 80;
   height: auto;
+  padding: 0.5vw;
 }

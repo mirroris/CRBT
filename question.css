@@ -6,6 +6,7 @@
   width:100%;
   position :absolute;
   display:block;
+  z-index: 4;
 }
 
 .answer {

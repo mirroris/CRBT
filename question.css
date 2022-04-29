@@ -10,7 +10,7 @@
 
 .answer {
   display: block;
-  padding: 2% 2%;
+  padding: 2%;
   font-size: 3vw;
   font-weight: normal;
   cursor: pointer;
@@ -23,7 +23,7 @@
   border-radius: 15px;
   box-shadow: 0 4px #999;
   text-align: center;
-  margin:1vw,1vw,1vw,1vw;
+  margin: 5% auto 5% auto;
   width:fit-content;
 }
 

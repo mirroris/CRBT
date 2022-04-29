@@ -29,7 +29,6 @@
 .adjust{
   display: inline-block;
   filter: brightness(0%);
-  filter: invert(8%) sepia(99%) seturate(7044%) hue-rotate(247deg) brightness(100%) contrast(145%);
   text-align: center; 
   margin-top: 5%;
 }

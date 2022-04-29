@@ -17,8 +17,8 @@
   text-align: center;
   text-decoration: none;
   outline: none;
-  color: #28424D;
-  background-color: #F5F3E7;
+  color: #F5F3E7;
+  background-color: #28424D;
   border: none;
   border-radius: 15px;
   box-shadow: 0 4px #999;
@@ -67,7 +67,7 @@
 .pic1{
   width: 20%;
   height: auto;
-  padding: 0.5vw;
+  padding: 10vw;
 }
 
 .pic2{

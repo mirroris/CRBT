@@ -2,9 +2,9 @@
 .questionlist{
   color:#28424D;
   text-align:center;
-  top :30px;
+  top :5vw;
   width:100%;
-  position :relative;
+  position :absolute;
   display:block;
 }
 
@@ -75,31 +75,30 @@
 
 .pic3{
   width: 20%;
-  height: auto
+  height: auto;
   padding: 0.5vw;
 }
 
 .pic4{
   width: 20%;
-  height: auto
-  padding: 0.5vw;
+  height: auto;
 }
 
 .pic4{
   width: 20%;
-  height: auto
+  height: auto;
   padding: 0.5vw;
 }
 
 .pic5{
   width: 20%;
-  height: auto
+  height: auto;
   padding: 0.5vw;
 }
 
 .pic6{
   width: 20%;
-  height: auto
+  height: auto;
   padding: 0.5vw;
 }
 

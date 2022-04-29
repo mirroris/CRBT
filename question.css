@@ -24,7 +24,7 @@
   box-shadow: 0 4px #999;
   text-align: center;
   margin: 5% auto 5% auto;
-  width:fit-content;
+  width:45%;
 }
 
 .answer:hover {background-color: #F5F3E7}

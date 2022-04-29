@@ -31,7 +31,7 @@
 
 .answer:active {
   font-weight: bold;
-  background-color: #28424D;
+  background-color: #F56E51;
   box-shadow: 0 4px #666;
   transform: translateY(4px);
 }

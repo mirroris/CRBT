@@ -25,10 +25,7 @@ body{
     top :0px;
     left:0px;
     z-index:-4;
-    display: flex;
-      justify-content: center;
       align-items: center;
-      overflow: hidden;
       position: relative;
 }
   

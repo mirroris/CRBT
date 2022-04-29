@@ -62,55 +62,8 @@
   background-color: #28424D;
 }
 
-.pic1{
+.pic{
   width:80% ;
-  height: auto;
-  padding: 0.5vw;
-}
-
-.pic2{
-  width: 80%;
-  height: auto;
-  padding: 0.5vw;
-}
-
-.pic3{
-  width: 80%;
-  height: auto;
-  padding: 0.5vw;
-}
-
-.pic4{
-  width: 80%;
-  height: auto;
-}
-
-.pic4{
-  width: 80%;
-  height: auto;
-  padding: 0.5vw;
-}
-
-.pic5{
-  width: 80%;
-  height: auto;
-  padding: 0.5vw;
-}
-
-.pic6{
-  width: 80%;
-  height: auto;
-  padding: 0.5vw;
-}
-
-.pic7{
-  width: 80%;
-  height: auto;
-  padding: 0.5vw;
-}
-
-.pic8{
-  width: 80;
   height: auto;
   padding: 0.5vw;
 }

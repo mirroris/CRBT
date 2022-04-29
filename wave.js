@@ -19,7 +19,7 @@ function init() {
   // 各キャンバスの初期化
     for(var canvasIndex in canvasList) {
         var canvas = canvasList[canvasIndex];
-        canvas.width = document.documentElement.clientWidth; //Canvasのwidthをウィンドウの幅に合わせる
+        canvas.width = window.outerWidth; //Canvasのwidthをウィンドウの幅に合わせる
         canvas.height = window.outerHeight;//波の高さ
         canvas.contextCache = canvas.getContext("2d");
     }

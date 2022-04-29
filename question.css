@@ -32,7 +32,7 @@
 
 .answer:active {
   font-weight: bold;
-  background-color: #F5F3E7;
+  background-color: #429EAB;
   box-shadow: 0 4px #666;
   transform: translateY(4px);
 }

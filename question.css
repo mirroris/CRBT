@@ -4,7 +4,7 @@
   text-align:center;
   top :5vw;
   width:100%;
-  position :absolute;
+  position :relative;
   display:block;
   z-index: 4;
 }

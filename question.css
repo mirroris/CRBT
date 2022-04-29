@@ -25,9 +25,6 @@
   text-align: center;
   margin:1vw,0,1vw,0;
   width:fit-content;
- margin:auto;
-  margin-top:1vw;
-  margin-bottom:1vw; 
 }
 
 .answer:hover {background-color: #F5F3E7}
@@ -65,39 +62,45 @@
 }
 
 .pic1{
-  width: 20%;
+  width:80% ;
   height: auto;
-  padding: 10vw;
+  padding: 0.5vw;
 }
 
 .pic2{
   width: 20%;
-  height: auto;
+  height: auto
+  padding: 0.5vw;
 }
 
 .pic3{
   width: 20%;
-  height: auto;
+  height: auto
+  padding: 0.5vw;
 }
 
 .pic4{
   width: 20%;
-  height: auto;
+  height: auto
+  padding: 0.5vw;
 }
 
 .pic4{
   width: 20%;
-  height: auto;
+  height: auto
+  padding: 0.5vw;
 }
 
 .pic5{
   width: 20%;
-  height: auto;
+  height: auto
+  padding: 0.5vw;
 }
 
 .pic6{
   width: 20%;
-  height: auto;
+  height: auto
+  padding: 0.5vw;
 }
 
 .pic7{

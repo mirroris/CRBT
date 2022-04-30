@@ -75,7 +75,10 @@
 }
 
 .illust{
-  width: 30% ;
+  display :block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 30%;
   height: auto;
   margin: 1.5vw;
 }

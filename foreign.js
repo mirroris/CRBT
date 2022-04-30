@@ -67,6 +67,6 @@ function accumulate(){
     let result = document.getElementById("resultsheet");
     //リザルトを表示
     result.style.display = "block";
-    document.getElementsByClassName("topbar").style.display="none";
+    document.getElementsByClassId("topbar").style.display="none";
     return;
 }

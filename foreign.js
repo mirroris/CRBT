@@ -70,9 +70,9 @@ function accumulate(){
         console.log(score);
     }
 
-    for(let i=0; i<8; i++){
         let max = 0;
-        if(max<=score[i]){
+    for(let i=0; i<8; i++){
+        if(max<score[i]){
             max=score[i];
             chtype = i;
         }

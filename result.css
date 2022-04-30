@@ -16,6 +16,7 @@
 .iteminfo{
     width:100%;
     background-color:white;
+    text-align: center;
 }
 
 #bold{
@@ -26,7 +27,8 @@
 
 #normal{
     Font-family:"游明朝";
-    font-size:2vw;
+    font-size:10vw;
+    color:#e31837
 }
 
 #small{

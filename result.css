@@ -2,12 +2,11 @@
     font-size: 3vw;
     font-family: "meiryo","HiraKakuProN-W3","ヒラギノ明朝 ProN W3",sans-serif;
     display :none;
-    width:100%;
     text-align: center;
     background-color:#e31837;
-    padding:5vw;
     left:0px;
     z-index:20;
+    width:100%;
 }
 
 .character{

@@ -27,3 +27,13 @@ function back(){
 
     return num;
 }
+
+function accumulate(){
+    //どの性格かを求める
+    //性格に合わせたデータを取得
+    //リザルトに設定
+    let result = document.getElementById("result");
+    //リザルトを表示
+    result.style.display = "block";
+    return;
+}

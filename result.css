@@ -1,7 +1,7 @@
 .result{
     font-size: 3vw;
     font-family: "meiryo","HiraKakuProN-W3","ヒラギノ明朝 ProN W3",sans-serif;
-    display :block;
+    display :none;
     width:100%;
     margin:2%;
     text-align: center;

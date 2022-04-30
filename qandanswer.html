@@ -4,6 +4,8 @@
   <link rel = "stylesheet" href = "background.css">
   <link rel = "stylesheet" href = "question.css">
   <link rel = "stylesheet" href = "startanalyz.css">
+  <link rel = "stylesheet" href = "result.css">
+
 </head>
   <body>
 
@@ -55,10 +57,40 @@
         </div>
 
         <div class = "question" id = "question6">
-          <a class = "startanalyz" href = "result.html">診断結果を見る</a>
+          <a class = "startanalyz" onclick="accumlate()">診断結果を見る</a>
           <div class = "backbutton" onclick="back()">前の質問に戻る</div>
         </div>
       </div>
+
+
+      
+    <div class = "result"><div class = "character">
+      <div class = "charactername">CharacterNo.1</div>
+      <img src="result1.png" class="resize"></div>  
+       あなたにおすすめのエコアイテムは「マイバック」<br>
+    フットワークが軽く、何事にも意欲的で周囲の人を引っ張っていくリーダー的な性格です。<br>
+    実はアーティスティックな一面も。<br>
+    身体を動かすことが好きで、動きやすくカジュアルなファッションがお似合いです！<br>
+    ファッションに柄のマイバックを取り入れる事で、より一層あなたの魅力が光ります✨<br>
+   【豆知識】本当にエコバックってエコなの？？<br>
+   ・・・<br>
+   <div id = "wrapper"><canvas id = "waveCanvas"></canvas></div>
+  
+
+   <!--
+
+   キャリボトの皆さん
+   学祭がうまくいきますように
+                  末永
+  -->
+
+    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" 
+    class="twitter-share-button" data-show-count="false" 
+    data-text="【阪大生ファッション×エコアイテム診断結果】あなたのエコアイテムは…○○！
+    あなたの○○なファッションとの相性が抜群！○○を持って阪大へ行こう！　#阪大生診断">Tweet</a>
+  </div>
+
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     <!-- JavaScriptファイルの読み込み-->
       <script src = "foreign.js"></script>

@@ -47,16 +47,18 @@
 }
 
 .backbutton{
-  display:inline-block;
+  display:block;
   cursor: pointer;
   border-radius: 3vw;
-  padding: 0.5vw;
+  padding: 1vw;
   font-size: 2vw;
   color: #F5F3E7;
   box-shadow: 0 4px #999;
   text-align: center;
   background-color: #28424D;
-  width:fit-content
+  width:fit-content;
+
+  margin-left:5vw;
 }
 
 .backbutton:active {

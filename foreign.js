@@ -1,3 +1,6 @@
+var valueofAnswerTab =[5][4];
+var score = {};
+
 function oneofFour(){
     let idname = "question"+num;
     //console.log(idname);
@@ -30,8 +33,11 @@ function back(){
 
 function accumulate(){
     //どの性格かを求める
+    
     //性格に合わせたデータを取得
+
     //リザルトに設定
+    document.getElementById("question6").style.display="none";
     let result = document.getElementById("result");
     //リザルトを表示
     result.style.display = "block";

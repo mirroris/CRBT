@@ -24,7 +24,7 @@
   border-radius: 15px;
   box-shadow: 0 4px #999;
   text-align: center;
-  margin: 3% auto 3% auto;
+  margin: 3% 2% 3% 2%;
   width:40%;
 }
 
@@ -71,5 +71,5 @@
 .pic{
   width:80% ;
   height: auto;
-  padding: 0.5vw;
+  padding: 0.3vw;
 }

@@ -24,7 +24,7 @@ var score = {typeA:0,typeB:0,typeC:0,typeD:0,typeE:0,typeF:0,typeG:0,typeH:0};
 var chart=[];
 
 
-function oneofFour(){
+function oneofFour(key){
     let idname = "question"+num;
     //console.log(idname);
     let question = document.getElementById(idname);
@@ -36,7 +36,7 @@ function oneofFour(){
     
     /**register answer info (answer (n))*/
     chart.push(id);
-    console.log(id);
+    console.log(key);
     return num;
 }
 

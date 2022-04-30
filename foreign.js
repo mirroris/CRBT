@@ -144,8 +144,6 @@ function accumulate(){
 
     let twinfo = '<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" data-text="【阪大生ファッション×エコアイテム診断結果】あなたのエコアイテムは…'+Type.item+'！#阪大生診断">Tweet</a>';
     document.getElementById("resultsheet").innerHTML=resultintro+info+beans+twinfo;
-    
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     //color調整
     document.getElementById("critical").style.color=Type.color;
 

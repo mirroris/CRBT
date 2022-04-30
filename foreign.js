@@ -66,7 +66,7 @@ function accumulate(){
     console.log(chart);
     for(let i=0; i<5;i++){
         let x = valueofAnswerTab[chart[i]];
-        score = score + x;
+        for(let j=0;j<8;j++)score[j] = score[j] + x[j];
         console.log(score);
     }
 

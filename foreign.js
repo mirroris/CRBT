@@ -62,7 +62,7 @@ function accumulate(){
 
     //リザルトに設定
     document.getElementById("question6").style.display="none";
-    let result = document.getElementById("result");
+    let result = document.getElementById("resultsheet");
     //リザルトを表示
     result.style.display = "block";
     return;

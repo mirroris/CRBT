@@ -35,7 +35,7 @@ function oneofFour(){
     
     /**register answer info (answer (n))*/
     chart.push(this.id);
-    console.log(chart);
+    console.log(this.id);
     return num;
 }
 

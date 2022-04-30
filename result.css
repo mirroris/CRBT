@@ -15,12 +15,14 @@
 
 .iteminfo{
     padding-top:2vw;
+    padding-bottom:2vw;
     width:100%;
     background-color:white;
     text-align: center;
 }
 .beans{
     padding-top:2vw;
+    padding-bottom:2vw;
     width:100%;
     background-color:black;
     text-align: center;

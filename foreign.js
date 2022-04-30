@@ -90,10 +90,30 @@ function accumulate(){
             break;
         case 2:
             //ここに書く
+            Type.color="#004C88"; //テーマカラ-
+            Type.info='';   // 基本情報
+            Type.item='マイボトル';  // アイテム
+            Type.img='result2.png';   // キャラ画像
+            Type.beans=''; //豆知識
+            Type.beansSub='【豆知識】本当にエコバックってエコなの？？';
             break;
         case 3:
+            //ここに書く
+            Type.color="#1A9739"; //テーマカラ-
+            Type.info='';   // 基本情報
+            Type.item='マイストロー';  // アイテム
+            Type.img='result3.png';   // キャラ画像
+            Type.beans=''; //豆知識
+            Type.beansSub='【豆知識】本当にエコバックってエコなの？？';
             break;
         case 4:
+            //ここに書く
+            Type.color="#970A31"; //テーマカラ-
+            Type.info='';   // 基本情報
+            Type.item='充電式カイロ';  // アイテム
+            Type.img='result4.png';   // キャラ画像
+            Type.beans=''; //豆知識
+            Type.beansSub='【豆知識】本当にエコバックってエコなの？？';
             break;
         case 5:
             break;
@@ -123,5 +143,10 @@ function accumulate(){
     let beans =  '<div class = "beans"> <div id = "bold">'+Type.beansSub+'</div>'+SVGUnitTypes.beans+'</div>';
 
     document.getElementById("resultsheet").innerHTML=resultintro+info+beans;
+    
+    //color調整
+    document.getElementById("critical").style.color=Type.color;
+    result.style.backgroundColor=Type.color;
+
     return;
 }

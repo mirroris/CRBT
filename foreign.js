@@ -1,24 +1,24 @@
 
-var valueofAnswerTab =[5][4]=[
-    [[[3,4,5]],   //
-    [[1,2,3]],   
-    [[2,3,1]],  
-    [[2,2,2]]], 
-    [],   //
-    [],
-    [],
-    [],   //
-    [],    
-    [],   
-    [],   
-    [],  //
-    [],
-    [], 
-    [], //
-    [],
-    [],
-    [],
-];
+var valueofAnswerTab ={
+    11:[2.1,5.1,2.1,5.1,10.1,2.1,2.1,2.1],
+    12:[10.1,10.1,10.1,2.1,2.1,2.1,5.1,2.1],
+    13:[5.1,2.1,5.1,2.1,2.1,10.1,10.1,5.1],
+    14:[2.1,2.1,2.1,10.1,5.1,5.1,2.1,10.1],
+    21:[],
+    22:[],
+    23:[],
+    31:[],
+    32:[],
+    33:[],
+    34:[],
+    41:[],
+    42:[],
+    43:[],
+    51:[],
+    52:[],
+    53:[],
+    54:[]
+};
 
 var score = {typeA:0,typeB:0,typeC:0,typeD:0,typeE:0,typeF:0,typeG:0,typeH:0};
 var chart=[];
@@ -37,7 +37,7 @@ function oneofFour(key){
     /**register answer info (answer (n))*/
     //chart.push();
     console.log(key);
-    console.log(valueofAnswerTab[num-1][key-1])
+    console.log(valueofAnswerTab[key])
     return num;
 }
 

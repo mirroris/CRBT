@@ -14,6 +14,7 @@
 }
 
 .iteminfo{
+    padding-top:2vw;
     width:100%;
     background-color:white;
     text-align: center;
@@ -28,7 +29,8 @@
 #normal{
     Font-family:"游明朝";
     font-size:10vw;
-    color:#e31837
+    color:#e31837;
+    display:inline;
 }
 
 #small{

@@ -7,6 +7,10 @@
     text-align: center;
     background-color:#e31837;
     padding:5%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:20;
 }
 
 .character{

@@ -19,8 +19,9 @@
     width:100%;
     background-color:white;
     text-align: center;
-    padding-left:10vw;
-    padding-right:10vw;
+    margin-left:10vw;
+    margin-right:10vw;
+    display:block;
 }
 .beans{
     padding-top:2vw;
@@ -43,6 +44,13 @@
     Font-family:"游明朝";
     font-size:2vw;
     color:rgb(65, 65, 65);
+    display:inline;
+}
+
+#critical{
+    Font-family:"游明朝";
+    font-size:6vw;
+    color:#e31837;
     display:inline;
 }
 

@@ -10,7 +10,7 @@
 }
 
 .answer {
-  display: block;
+  display: inline-block;
   padding: 2%;
   font-size: 3vw;
   font-weight: normal;
@@ -24,8 +24,8 @@
   border-radius: 15px;
   box-shadow: 0 4px #999;
   text-align: center;
-  margin: 5% auto 5% auto;
-  width:45%;
+  margin: 3% auto 3% auto;
+  width:40%;
 }
 
 .answer:hover {background-color: #429EAB}

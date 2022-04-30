@@ -19,11 +19,19 @@
     background-color:white;
     text-align: center;
 }
+.beans{
+    padding-top:2vw;
+    width:100%;
+    background-color:black;
+    text-align: center;
+    color:white;
+}
 
 #bold{
     Font-family:"Times";
     font-size:5vw;
     color:white;
+    font-weight:bold;
 }
 
 #normal{

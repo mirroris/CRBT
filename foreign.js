@@ -140,9 +140,10 @@ function accumulate(){
     
     let info = '<div class = "iteminfo" id = "iteminfo"><div id="normal">'+Type.info+"</div></div>";
     
-    let beans =  '<div class = "beans"> <div id = "bold">'+Type.beansSub+'</div>'+SVGUnitTypes.beans+'</div>';
+    let beans =  '<div class = "beans"> <div id = "bold">'+Type.beansSub+'</div>'+Type.beans+'</div>';
 
-    document.getElementById("resultsheet").innerHTML=resultintro+info+beans;
+    let twinfo = '<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" data-text="【阪大生ファッション×エコアイテム診断結果】あなたのエコアイテムは…'+Type.item+'！あなたの○○なファッションとの相性が抜群！○○を持って阪大へ行こう！　#阪大生診断">Tweet</a></div>';
+    document.getElementById("resultsheet").innerHTML=resultintro+info+beans+twinfo;
     
     //color調整
     document.getElementById("critical").style.color=Type.color;

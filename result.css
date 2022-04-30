@@ -29,7 +29,7 @@
     background-color:black;
     text-align: center;
     color:white;
-    color:rgb(65, 65, 65);
+    color:rgb(148, 148, 148);
 }
 
 #bold{
@@ -85,6 +85,13 @@
     text-decoration-style: solid;
 }
 
-.twitter-share-button{
-    width:10vw;
+#crbtinfo{
+    padding-top:2vw;
+    padding-bottom:2vw;
+    width:100%;
+    font-weight:bold;
+    font-size:2vw;
+    text-align: right;
+    display:block;
+    text-align:right;
 }

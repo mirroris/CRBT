@@ -11,13 +11,15 @@
     display :block;
     margin:0vw,auto,0vw,auto;
     background-color:#F5F3E7;
-    border-radius:15%;
-    width:30%;
+    border-radius:15vw;
+    width:30vw;
     text-align:center;
+    
 }
 
 .resize{
     height:100%;
     width:auto;
+    display:block;
 }
 

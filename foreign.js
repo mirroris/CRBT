@@ -132,7 +132,7 @@ function accumulate(){
     let result = document.getElementById("resultsheet");
     //リザルトを表示
     result.style.display = "block";
-    result.style.backgroundColor="#970A31";
+    result.style.backgroundColor=Type.color;
 
     //動的に結果を作成
     let resultChara = '<div class = "character">'+'<img src='+Type.img+' class="resize">';

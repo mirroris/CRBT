@@ -89,7 +89,7 @@ function drawSine(canvas, t, zoom, delay) {
     var x = t; //時間を横の位置とする
     var y = Math.sin(x)/zoom;
     context.moveTo(yAxis, unit*y+xAxis); //スタート位置にパスを置く
-    var incr_amount = flow();
+    //var incr_amount = flow();
     // Loop to draw segments (横幅の分、波を描画)
     for (i = yAxis; i <= canvas.width + 10; i += 10) {
         x = t+(-yAxis+i)/unit/zoom;

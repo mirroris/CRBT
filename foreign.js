@@ -1,9 +1,9 @@
 
 var valueofAnswerTab =[5][4]=[
-    [[],   //
-    [],   
-    [],  
-    []], 
+    [[[3,4,5]],   //
+    [[1,2,3]],   
+    [[2,3,1]],  
+    [[2,2,2]]], 
     [],   //
     [],
     [],
@@ -37,6 +37,7 @@ function oneofFour(key){
     /**register answer info (answer (n))*/
     chart.push(id);
     console.log(key);
+    console.log(valueofAnswerTab[num][key])
     return num;
 }
 

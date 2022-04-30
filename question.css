@@ -69,17 +69,12 @@
 }
 
 .pic{
-  width:80% ;
+  width:100% ;
   height: auto;
-  margin: 1.5vw;
 }
 
 .illust{
-  display :block;
-  margin-left:auto;
-  margin-right:auto;
-  width: 30%;
+  width: 60%;
   height: auto;
-  margin: 1.5vw;
 }
 

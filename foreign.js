@@ -37,7 +37,7 @@ function oneofFour(key){
     /**register answer info (answer (n))*/
     //chart.push();
     console.log(key);
-    console.log(valueofAnswerTab[num][key])
+    console.log(valueofAnswerTab[num-1][key-1])
     return num;
 }
 

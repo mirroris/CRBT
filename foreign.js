@@ -34,8 +34,8 @@ function oneofFour(){
     nextquestion.style.display = "block";
     
     /**register answer info (answer (n))*/
-    chart.push(this.id);
-    console.log(element.id);
+    chart.push(id);
+    console.log(id);
     return num;
 }
 

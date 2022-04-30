@@ -93,7 +93,7 @@ function drawSine(canvas, t, zoom, delay) {
     // Loop to draw segments (横幅の分、波を描画)
     for (i = yAxis; i <= canvas.width + 10; i += 10) {
         x = t+(-yAxis+i)/unit/zoom;
-        y = Math.sin(x - delay)/6;
+        y = Math.sin(x - delay)/3;
         context.lineTo(i, unit*y+xAxis);
     }
 }

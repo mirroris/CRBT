@@ -104,7 +104,7 @@ function accumulate(){
         case 8:
             break;
     }
-
+    console.log(chtype+1);
     //性格に合わせたデータを取得
 
     //リザルトに設定

@@ -1,5 +1,5 @@
 #resultsheet{
-    font-size: 3vw;
+    font-size: 4vw;
     font-family: "meiryo","HiraKakuProN-W3","ヒラギノ明朝 ProN W3",sans-serif;
     display :none;
     text-align: center;
@@ -21,6 +21,7 @@
     text-align: center;
     display:block;
 }
+
 .beans{
     padding-top:2vw;
     padding-bottom:2vw;
@@ -40,14 +41,14 @@
 
 #normal{
     Font-family:"游明朝";
-    font-size:2vw;
-    color:rgb(65, 65, 65);
+    font-size:3vw;
+    color:rgb(50, 50, 50);
     display:inline;
 }
 
 #critical{
     Font-family:"游明朝";
-    font-size:6vw;
+    font-size:9vw;
     color:#e31837;
     display:inline;
 }

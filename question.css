@@ -71,12 +71,12 @@
 .pic{
   width:80% ;
   height: auto;
-  padding: 0.3vw;
+  margin: 1.5vw;
 }
 
 .illust{
-  width: 40%;
-  height: auto;
-  
+  height: 15%;
+  width: auto;
+  padding: 0.3vw;
 }
 

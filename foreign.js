@@ -1,5 +1,5 @@
 
-var valueofAnswerTab =;
+var valueofAnswerTab =[];
 var answer1_1 = [];
 var answer1_2 = [];
 var answer1_3 = [];

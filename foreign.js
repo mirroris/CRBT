@@ -81,7 +81,7 @@ function accumulate(){
     let Type={};
     switch(chtype+1){
         case 1:
-            Type.color="E83419"; //テーマカラ-
+            Type.color="#E83419"; //テーマカラ-
             Type.info='<div id = "critical">フ</div>ットワークが軽く、何事にも意欲的で周囲の人を引っ張っていくリーダー的な性格です。<br>実はアーティスティックな一面も。<br>身体を動かすことが好きで、動きやすくカジュアルなファッションがお似合いです！<br>ファッションに柄のマイバックを取り入れる事で、より一層あなたの魅力が光ります✨<br>';   // 基本情報
             Type.item='マイバッグ';  // アイテム
             Type.img='result1.png';   // キャラ画像
@@ -132,7 +132,7 @@ function accumulate(){
     let result = document.getElementById("resultsheet");
     //リザルトを表示
     result.style.display = "block";
-    result.style.backgroundColor=Type.color;
+    result.style.backgroundColor="#970A31";
 
     //動的に結果を作成
     let resultChara = '<div class = "character">'+'<img src='+Type.img+' class="resize">';
@@ -146,7 +146,6 @@ function accumulate(){
     
     //color調整
     document.getElementById("critical").style.color=Type.color;
-    result.style.backgroundColor=Type.color;
 
     return;
 }

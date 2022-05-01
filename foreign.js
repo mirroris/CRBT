@@ -83,7 +83,8 @@ function accumulate(){
         case 1:
             Type.color="#E83419"; //テーマカラ-
             Type.info='<div id = "critical">フ</div>ットワークが軽く、何事にも意欲的で周囲の人を引っ張っていくリーダー的な性格です。<br>'
-            '実はアーティスティックな一面も。<br>身体を動かすことが好きで、動きやすくカジュアルなファッションがお似合いです！<br>'
+            '実はアーティスティックな一面も。<br>'
+            '身体を動かすことが好きで、動きやすくカジュアルなファッションがお似合いです！<br>'
             'ファッションに柄のマイバックを取り入れる事で、より一層あなたの魅力が光ります✨<br>';   // 基本情報
             Type.item='マイバッグ';  // アイテム
             Type.img='result1.png';   // キャラ画像
@@ -102,65 +103,78 @@ function accumulate(){
 
         case 2:
             Type.color="#004C88"; //テーマカラ-
-            Type.info='';   // 基本情報
-            Type.item='マイボトル';  // アイテム
+            Type.info='あなたは何事にも熱心で努力家な性格です。1人でコツコツと勉強することが得意です。<br>'
+            '家では集中できないので、街に行って喫茶店で勉強すると捗ります。<br>'
+            '古着などのレトロな服装を着て、タンブラーを持って行って優雅に珈琲を注文してみましょう。'
+            '知的で落ち着いた大人の魅力を醸しだし、同級生に差を付けられること間違いなし！';   // 基本情報
+            Type.item='タンブラー';  // アイテム
             Type.img='result2.png';   // キャラ画像
-            Type.beans=''; //豆知識
-            Type.beansSub='【豆知識】本当にエコバックってエコなの？？';
+            Type.beans='タンブラー持参で割引になるカフェ'; //豆知識
+            Type.beansSub='タンブラー持参で割引になるカフェ<br>'
+            'MACHI cafè（10円引）<br>'
+            'スターバックス(20円引)<br>'
+            'エクセルシオールカフェ()<br>'
+            'ブルーボトルコーヒー()<br>'
+            'NEW YPRKER’S Cafe<br>'
+            'セガフレード・ザネッティ<br>'
+            'シアトルズベストコーヒー<br>'
+            'タリーズコーヒー(30)<br>'
+            'カフェ・ド・クリエ(30)<br>'
+            '上島珈琲店(50円)<br>';
             break;
+
         case 3:
-            //ここに書く
             Type.color="#1A9739"; //テーマカラ-
-            Type.info='';   // 基本情報
+            Type.info='流行が好き,韓国風ファッション,セットアップ,オシャレさん,インスタ';   // 基本情報
             Type.item='マイストロー';  // アイテム
             Type.img='result3.png';   // キャラ画像
-            Type.beans=''; //豆知識
-            Type.beansSub='【豆知識】本当にエコバックってエコなの？？';
+            Type.beans='オススメ商品'; //豆知識
+            Type.beansSub='小学生が開発したストロー（リンク）、チタンストロー ';
             break;
+
         case 4:
-            //ここに書く
             Type.color="#970A31"; //テーマカラ-
-            Type.info='';   // 基本情報
+            Type.info='不思議ちゃん,冬はこたつから離れられない,のんびりとした性格,もこもこした服,ボア,マイペース';   // 基本情報
             Type.item='充電式カイロ';  // アイテム
             Type.img='result4.png';   // キャラ画像
-            Type.beans=''; //豆知識
-            Type.beansSub='【豆知識】本当にエコバックってエコなの？？';
+            Type.beans='モバイルバッテリーになるカイロ'; //豆知識
+            Type.beansSub='モバイルバッテリーになるカイロ';
             break;
+
         case 5:
-            //ここに書く
             Type.color="#"; //テーマカラ-
-            Type.info='';   // 基本情報
+            Type.info='塾講しがち,スーツなど,フォーマルなファッションが似合う,予習復習は欠かせない真面目さん,天然な一面も';   // 基本情報
             Type.item='マイ箸';  // アイテム
             Type.img='result5.png';   // キャラ画像
-            Type.beans=''; //豆知識
-            Type.beansSub='【豆知識】本当にエコバックってエコなの？？';
+            Type.beans='割り箸と比較してみた'; //豆知識
+            Type.beansSub='割り箸を使うときの注意点';
             break;
+
         case 6:
-            //ここに書く
             Type.color="#"; //テーマカラ-
-            Type.info='';   // 基本情報
+            Type.info='理系,感情よりも論理で話しがち,好きなことにはとことん,木目調のインテリアが好き';   // 基本情報
             Type.item='節電タップ';  // アイテム
             Type.img='result6.png';   // キャラ画像
-            Type.beans=''; //豆知識
-            Type.beansSub='【豆知識】本当にエコバックってエコなの？？';
+            Type.beans='待機電力について'; //豆知識
+            Type.beansSub='待機電力のはなし';
             break;
+
         case 7:
-            //ここに書く
             Type.color="#FCBD00"; //テーマカラ-
-            Type.info='';   // 基本情報
+            Type.info='スポーツ、暑がり';   // 基本情報
             Type.item='扇風機';  // アイテム
             Type.img='result7.png';   // キャラ画像
-            Type.beans=''; //豆知識
-            Type.beansSub='【豆知識】本当にエコバックってエコなの？？';
+            Type.beans='扇風機の賢い使い方'; //豆知識
+            Type.beansSub='エアコンと扇風機の使い方、一番効率的な扇風機の使い方';
             break;
         case 8:
             //ここに書く
             Type.color="#EC6A04"; //テーマカラ-
-            Type.info='';   // 基本情報
+            Type.info='アウトドア';   // 基本情報
             Type.item='ソーラーモバイルバッテリー';  // アイテム
             Type.img='result8.png';   // キャラ画像
-            Type.beans=''; //豆知識
-            Type.beansSub='【豆知識】本当にエコバックってエコなの？？';
+            Type.beans='素敵な商品'; //豆知識
+            Type.beansSub='折り畳めるタイプ・ソーラー&手回し充電';
             break;
     }
     console.log(chtype+1);

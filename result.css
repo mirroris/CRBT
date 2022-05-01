@@ -21,6 +21,7 @@
     text-align: center;
     display:block;
     color:#28424D;
+    line-height: 2vw;
 }
 
 .beans{
@@ -59,7 +60,7 @@
 
 #small{
     Font-family:"游明朝";
-    font-size:2vw;
+    font-size:3vw;
     text-align:right;
 }
 

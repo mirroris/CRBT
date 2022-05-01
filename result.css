@@ -14,7 +14,7 @@
 }
 
 .iteminfo{
-    padding:2vw;
+    padding:0,2vw,4vw,2vw;
     width:100%;
     background-color:#F5F3E7;
     Font-family:"游明朝";
@@ -59,7 +59,7 @@
 
 #small{
     Font-family:"游明朝";
-    font-size:1.8vw;
+    font-size:2vw;
     text-align:right;
 }
 

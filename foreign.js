@@ -166,7 +166,7 @@ function accumulate(){
    
     let info = '<div class = "iteminfo" id = "iteminfo">'+Type.info+"</div>";
    
-    let beans =  '<div class = "beans"> 【'+Type.beans+'】<br><div id="normal">'+Type.beansSub+'</div></div>';
+    let beans =  '<div class = "beans"> <div id="top">【'+Type.beans+'】</div><br><div id="normal">'+Type.beansSub+'</div></div>';
     let twinfo = '<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" data-text="【阪大生ファッション×エコアイテム診断】あなたのエコアイテムは…' +Type.item+ '…！' +Type.item+ 'を持って阪大へ行こう！ #阪大生診断"> Tweet</a>';
     document.getElementById("resultsheet").innerHTML=resultintro+info+beans+twinfo;
     //color調整

@@ -24,19 +24,17 @@
 }
 
 .beans{
-    font-size: 5vw;
     padding:2vw;
     width: 100%;
     background-color:#28424D;
-    text-align: center;
     color:#F56E51;
     color:#F5F3E7;
-    margin: 2vw;
 }
 
 #top{
     font-size:5vw;
     color:#F5F3E7;
+    text-align: center;
 }
 
 #bold{

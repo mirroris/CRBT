@@ -8,13 +8,26 @@
     top:0px;
     z-index:20;
     width:100%;	
-    padding-top: 5vw;
-    margin-bottom:5vw;
     box-sizing : border-box;
 }
 
+#top{
+    font-size:5vw;
+    color:#F5F3E7;
+    text-align: center;
+    margin-top:3vw;
+    margin-bottom:3vw;
+}
+
+#bold{
+    font-size:7vw;
+    font-weight:bold;
+    color:#F5F3E7;
+    margin-bottom:3vw;
+}
+
 .iteminfo{
-    padding:20vw,2vw,4vw,20vw;
+    margin:10vw,4vw,4vw,10vw;
     width:100%;
     background-color:#F5F3E7;
     Font-family:"游明朝";
@@ -25,24 +38,13 @@
 }
 
 .beans{
-    padding:10vw,2vw,4vw,20vw;
+    margin:10vw,4vw,4vw,10vw;
     width: 100%;
     background-color:#28424D;
     color:#F56E51;
     color:#F5F3E7;
 }
 
-#top{
-    font-size:5vw;
-    color:#F5F3E7;
-    text-align: center;
-}
-
-#bold{
-    font-size:7vw;
-    font-weight:bold;
-    color:#F5F3E7;
-}
 
 #normal{
     font-size:2.5vw;

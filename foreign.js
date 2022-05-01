@@ -136,11 +136,11 @@ function accumulate(){
 
         case 7:
             Type.color="#FCBD00"; //テーマカラ-
-            Type.info="<div id = 'critical'>ス</div>ポーツ、暑がり";   // 基本情報
+            Type.info="<div id = 'critical'>い</div>つもみんなの盛り上げ役でムードメーカ。誰に対しても優しく、裏表がない性格なので、周りの人からは厚く信頼されています。<br>体を動かすのが好きで、体育や部活・サークルの時はジャージで登校することも。暑い日に運動した後は、手で持てる扇風機や首から掛ける扇風機で快適に過ごしてみてはいかがでしょうか。";  // 基本情報
             Type.item="扇風機";  // アイテム
             Type.img="result7.png";   // キャラ画像
-            Type.beans="扇風機の賢い使い方"; //豆知識
-            Type.beansSub="エアコンと扇風機の使い方、一番効率的な扇風機の使い方";
+            Type.beans="省エネになる扇風機の使い方"; //豆知識
+            Type.beansSub="";
             break;
         case 8:
             Type.color="#EC6A04"; //テーマカラ-

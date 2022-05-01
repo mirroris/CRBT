@@ -91,65 +91,64 @@ function accumulate(){
 
         case 2:
             Type.color="#004C88"; //テーマカラ-
-            Type.info='<div id = "critical">何</div>事にも熱心で努力家な性格です。大人数で集まるよりも、1人でコツコツと勉強することが得意なタイプ。街に行って喫茶店で勉強すると捗ります。<br>古着などのレトロな服装を着て、タンブラーを持って行って優雅に珈琲を注文してみましょう。知的で落ち着いた大人の魅力を醸しだし、同級生に差を付けられること間違いなし！';   // 基本情報
-            Type.item='タンブラー';  // アイテム
-            Type.img='result2.png';   // キャラ画像
-            Type.beans='タンブラー持参で割引になるカフェ'; //豆知識
-            Type.beansSub='タンブラー持参で割引になるカフェ<br>MACHI cafè（10円引）<br>スターバックス(20円引)<br>エクセルシオールカフェ()<br>ブルーボトルコーヒー()<br>NEW YPRKER’S Cafe<br>セガフレード・ザネッティ<br>シアトルズベストコーヒー<br>タリーズコーヒー(30)<br>カフェ・ド・クリエ(30)<br>上島珈琲店(50円)<br>';
+            Type.info="<div id = 'critical'>何</div>事にも熱心で努力家な性格です。大人数で集まるよりも、1人でコツコツと勉強することが得意なタイプ。街に行って喫茶店で勉強すると捗ります。<br>古着などのレトロな服装を着て、タンブラーを持って行って優雅に珈琲を注文してみましょう。知的で落ち着いた大人の魅力を醸しだし、同級生に差を付けられること間違いなし！";   // 基本情報
+            Type.item="タンブラー";  // アイテム
+            Type.img="result2.png";   // キャラ画像
+            Type.beans="タンブラー持参で割引になるカフェ"; //豆知識
+            Type.beansSub="タンブラー持参で割引になるカフェ<br>MACHI cafè（10円引）<br>スターバックス(20円引)<br>エクセルシオールカフェ()<br>ブルーボトルコーヒー()<br>NEW YPRKER’S Cafe<br>セガフレード・ザネッティ<br>シアトルズベストコーヒー<br>タリーズコーヒー(30)<br>カフェ・ド・クリエ(30)<br>上島珈琲店(50円)<br>";
             break;
 
         case 3:
             Type.color="#1A9739"; //テーマカラ-
-            Type.info='<div id = "critical">流</div>行が好き,韓国風ファッション,セットアップ,オシャレさん,インスタ';   // 基本情報
-            Type.item='マイストロー';  // アイテム
-            Type.img='result3.png';   // キャラ画像
-            Type.beans='オススメ商品'; //豆知識
-            Type.beansSub='小学生が開発したストロー（リンク）、チタンストロー ';
+            Type.info="<div id = 'critical'>流</div>行が好き,韓国風ファッション,セットアップ,オシャレさん,インスタ";   // 基本情報
+            Type.item="マイストロー";  // アイテム
+            Type.img="result3.png";   // キャラ画像
+            Type.beans="オススメ商品" //豆知識
+            Type.beansSub="小学生が開発したストロー（リンク）、チタンストロー ";
             break;
 
         case 4:
             Type.color="#970A31"; //テーマカラ-
-            Type.info='<div id = "critical">不</div>思議ちゃん,冬はこたつから離れられない,のんびりとした性格,もこもこした服,ボア,マイペース';   // 基本情報
-            Type.item='充電式カイロ';  // アイテム
-            Type.img='result4.png';   // キャラ画像
-            Type.beans='モバイルバッテリーになるカイロ'; //豆知識
-            Type.beansSub='モバイルバッテリーになるカイロ';
+            Type.info="<div id = 'critical'>不</div>思議ちゃん,冬はこたつから離れられない,のんびりとした性格,もこもこした服,ボア,マイペース";   // 基本情報
+            Type.item="充電式カイロ";  // アイテム
+            Type.img="result4.png";   // キャラ画像
+            Type.beans="モバイルバッテリーになるカイロ"; //豆知識
+            Type.beansSub="モバイルバッテリーになるカイロ";
             break;
 
         case 5:
             Type.color="#"; //テーマカラ-
-            Type.info='<div id = "critical">塾</div>講しがち,スーツなど,フォーマルなファッションが似合う,予習復習は欠かせない真面目さん,天然な一面も';   // 基本情報
-            Type.item='マイ箸';  // アイテム
-            Type.img='result5.png';   // キャラ画像
-            Type.beans='割り箸と比較してみた'; //豆知識
-            Type.beansSub='割り箸を使うときの注意点';
+            Type.info="<div id = "critical">塾</div>講しがち,スーツなど,フォーマルなファッションが似合う,予習復習は欠かせない真面目さん,天然な一面も";   // 基本情報
+            Type.item="マイ箸";  // アイテム
+            Type.img="result5.png";   // キャラ画像
+            Type.beans="割り箸と比較してみた"; //豆知識
+            Type.beansSub="割り箸を使うときの注意点";
             break;
 
         case 6:
             Type.color="#"; //テーマカラ-
-            Type.info='<div id = "critical">理</div>系,感情よりも論理で話しがち,好きなことにはとことん,木目調のインテリアが好き';   // 基本情報
-            Type.item='節電タップ';  // アイテム
-            Type.img='result6.png';   // キャラ画像
-            Type.beans='待機電力について'; //豆知識
-            Type.beansSub='待機電力のはなし';
+            Type.info="<div id = 'critical'>理</div>系,感情よりも論理で話しがち,好きなことにはとことん,木目調のインテリアが好き";   // 基本情報
+            Type.item="節電タップ";  // アイテム
+            Type.img="result6.png";   // キャラ画像
+            Type.beans="待機電力について; //豆知識
+            Type.beansSub="待機電力のはなし";
             break;
 
         case 7:
             Type.color="#FCBD00"; //テーマカラ-
-            Type.info='<div id = "critical">ス</div>ポーツ、暑がり';   // 基本情報
-            Type.item='扇風機';  // アイテム
-            Type.img='result7.png';   // キャラ画像
-            Type.beans='扇風機の賢い使い方'; //豆知識
-            Type.beansSub='エアコンと扇風機の使い方、一番効率的な扇風機の使い方';
+            Type.info="<div id = 'critical'>ス</div>ポーツ、暑がり";   // 基本情報
+            Type.item="扇風機";  // アイテム
+            Type.img="result7.png";   // キャラ画像
+            Type.beans="扇風機の賢い使い方"; //豆知識
+            Type.beansSub="エアコンと扇風機の使い方、一番効率的な扇風機の使い方";
             break;
         case 8:
-            //ここに書く
             Type.color="#EC6A04"; //テーマカラ-
-            Type.info='<div id = "critical">ア</div>ウトドア';   // 基本情報
-            Type.item='ソーラーモバイルバッテリー';  // アイテム
-            Type.img='result8.png';   // キャラ画像
-            Type.beans='素敵な商品'; //豆知識
-            Type.beansSub='折り畳めるタイプ・ソーラー&手回し充電';
+            Type.info="<div id = 'critical'>ア</div>ウトドア";   // 基本情報
+            Type.item="ソーラーモバイルバッテリー";  // アイテム
+            Type.img="result8.png";   // キャラ画像
+            Type.beans="素敵な商品"; //豆知識
+            Type.beansSub="折り畳めるタイプ・ソーラー&手回し充電";
             break;
     }
     console.log(chtype+1);

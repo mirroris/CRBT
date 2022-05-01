@@ -93,7 +93,7 @@ function accumulate(){
 
         case 2:
             Type.color="#004C88"; //テーマカラ-
-            Type.info='あなたは何事にも熱心で努力家な性格です。1人でコツコツと勉強することが得意です。<br>家では集中できないので、街に行って喫茶店で勉強すると捗ります。<br>古着などのレトロな服装を着て、タンブラーを持って行って優雅に珈琲を注文してみましょう。知的で落ち着いた大人の魅力を醸しだし、同級生に差を付けられること間違いなし！';   // 基本情報
+            Type.info='<div id = "critical">何</div>事にも熱心で努力家な性格です。大人数で集まるよりも、1人でコツコツと勉強することが得意なタイプ。街に行って喫茶店で勉強すると捗ります。<br>古着などのレトロな服装を着て、タンブラーを持って行って優雅に珈琲を注文してみましょう。知的で落ち着いた大人の魅力を醸しだし、同級生に差を付けられること間違いなし！';   // 基本情報
             Type.item='タンブラー';  // アイテム
             Type.img='result2.png';   // キャラ画像
             Type.beans='タンブラー持参で割引になるカフェ'; //豆知識
@@ -102,7 +102,7 @@ function accumulate(){
 
         case 3:
             Type.color="#1A9739"; //テーマカラ-
-            Type.info='流行が好き,韓国風ファッション,セットアップ,オシャレさん,インスタ';   // 基本情報
+            Type.info='<div id = "critical">流</div>行が好き,韓国風ファッション,セットアップ,オシャレさん,インスタ';   // 基本情報
             Type.item='マイストロー';  // アイテム
             Type.img='result3.png';   // キャラ画像
             Type.beans='オススメ商品'; //豆知識
@@ -111,7 +111,7 @@ function accumulate(){
 
         case 4:
             Type.color="#970A31"; //テーマカラ-
-            Type.info='不思議ちゃん,冬はこたつから離れられない,のんびりとした性格,もこもこした服,ボア,マイペース';   // 基本情報
+            Type.info='<div id = "critical">不</div>思議ちゃん,冬はこたつから離れられない,のんびりとした性格,もこもこした服,ボア,マイペース';   // 基本情報
             Type.item='充電式カイロ';  // アイテム
             Type.img='result4.png';   // キャラ画像
             Type.beans='モバイルバッテリーになるカイロ'; //豆知識
@@ -120,7 +120,7 @@ function accumulate(){
 
         case 5:
             Type.color="#"; //テーマカラ-
-            Type.info='塾講しがち,スーツなど,フォーマルなファッションが似合う,予習復習は欠かせない真面目さん,天然な一面も';   // 基本情報
+            Type.info='<div id = "critical">塾</div>講しがち,スーツなど,フォーマルなファッションが似合う,予習復習は欠かせない真面目さん,天然な一面も';   // 基本情報
             Type.item='マイ箸';  // アイテム
             Type.img='result5.png';   // キャラ画像
             Type.beans='割り箸と比較してみた'; //豆知識
@@ -129,7 +129,7 @@ function accumulate(){
 
         case 6:
             Type.color="#"; //テーマカラ-
-            Type.info='理系,感情よりも論理で話しがち,好きなことにはとことん,木目調のインテリアが好き';   // 基本情報
+            Type.info='<div id = "critical">理</div>系,感情よりも論理で話しがち,好きなことにはとことん,木目調のインテリアが好き';   // 基本情報
             Type.item='節電タップ';  // アイテム
             Type.img='result6.png';   // キャラ画像
             Type.beans='待機電力について'; //豆知識
@@ -138,7 +138,7 @@ function accumulate(){
 
         case 7:
             Type.color="#FCBD00"; //テーマカラ-
-            Type.info='スポーツ、暑がり';   // 基本情報
+            Type.info='<div id = "critical">ス</div>ポーツ、暑がり';   // 基本情報
             Type.item='扇風機';  // アイテム
             Type.img='result7.png';   // キャラ画像
             Type.beans='扇風機の賢い使い方'; //豆知識
@@ -147,7 +147,7 @@ function accumulate(){
         case 8:
             //ここに書く
             Type.color="#EC6A04"; //テーマカラ-
-            Type.info='アウトドア';   // 基本情報
+            Type.info='<div id = "critical">ア</div>ウトドア';   // 基本情報
             Type.item='ソーラーモバイルバッテリー';  // アイテム
             Type.img='result8.png';   // キャラ画像
             Type.beans='素敵な商品'; //豆知識
@@ -170,7 +170,7 @@ function accumulate(){
     
     let info = '<div class = "iteminfo" id = "iteminfo"><div id="normal">'+Type.info+"</div></div>";
     
-    let beans =  '<div class = "beans"> <div id = "bold">'+Type.beansSub+'</div>'+Type.beans+'</div>';
+    let beans =  '<div class = "beans"> <div id = "bold">'+Type.beans+'</div>'+Type.beansSub+'</div>';
 
     let twinfo = '<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" data-text="【阪大生ファッション×エコアイテム診断】'<br>'あなたのエコアイテムは…'+Type.item+' …！'+Type.item+'を持って阪大へ行こう！ #阪大生診断">Tweet</a>';
     document.getElementById("resultsheet").innerHTML=resultintro+info+beans+twinfo;

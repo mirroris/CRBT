@@ -3,6 +3,7 @@
     font-family: "meiryo","HiraKakuProN-W3","ヒラギノ明朝 ProN W3",sans-serif;
     display :none;
     text-align: center;
+    color:#F5F3E7;
     left:0px;
     top:0px;
     z-index:20;
@@ -13,12 +14,14 @@
 }
 
 .iteminfo{
-    padding-top:2vw;
-    padding-bottom:2vw;
+    padding-top:1.8vw;
+    padding-bottom:1.8vw;
     width:100%;
     background-color:#F5F3E7;
+    Font-family:"游明朝";
     text-align: center;
     display:block;
+    color:#28424D;
 }
 
 .beans{
@@ -32,15 +35,12 @@
 }
 
 #bold{
-    Font-family:"Times";
     font-size:5vw;
     font-weight:bold;
 }
 
 #normal{
-    Font-family:"游明朝";
     font-size:3vw;
-    color:#28424D;
     display:inline;
 }
 

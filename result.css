@@ -2,7 +2,7 @@
     font-size: 4vw;
     font-family: "meiryo","HiraKakuProN-W3","ヒラギノ明朝 ProN W3",sans-serif;
     display :none;
-    
+    text-align: center;
     left:0px;
     top:0px;
     z-index:20;
@@ -22,13 +22,14 @@
 }
 
 .beans{
-    padding-top:1.5vw;
-    padding-bottom:1.5vw;
-    width:100%;
+    font-size: 2.5vw;
+    padding-top:2vw;
+    padding-bottom:2vw;
+    width: 90%;
     background-color:#28424D;
     text-align: left;
+    color:#F56E51;
     color:#F5F3E7;
-    color:rgb(148, 148, 148);
 }
 
 #bold{
@@ -41,7 +42,7 @@
 #normal{
     Font-family:"游明朝";
     font-size:3vw;
-    color:rgb(176, 176, 176);
+    color:#28424D;
     display:inline;
 }
 

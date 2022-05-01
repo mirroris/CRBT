@@ -118,7 +118,7 @@ function accumulate(){
 
         case 5:
             Type.color="#"; //テーマカラ-
-            Type.info="<div id = "critical">塾</div>講しがち,スーツなど,フォーマルなファッションが似合う,予習復習は欠かせない真面目さん,天然な一面も";   // 基本情報
+            Type.info="<div id = 'critical'>塾</div>講しがち,スーツなど,フォーマルなファッションが似合う,予習復習は欠かせない真面目さん,天然な一面も";   // 基本情報
             Type.item="マイ箸";  // アイテム
             Type.img="result5.png";   // キャラ画像
             Type.beans="割り箸と比較してみた"; //豆知識
@@ -130,7 +130,7 @@ function accumulate(){
             Type.info="<div id = 'critical'>理</div>系,感情よりも論理で話しがち,好きなことにはとことん,木目調のインテリアが好き";   // 基本情報
             Type.item="節電タップ";  // アイテム
             Type.img="result6.png";   // キャラ画像
-            Type.beans="待機電力について; //豆知識
+            Type.beans="待機電力について"; //豆知識
             Type.beansSub="待機電力のはなし";
             break;
 

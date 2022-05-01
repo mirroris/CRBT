@@ -99,8 +99,8 @@ function accumulate(){
             '使う頻度や耐久性、金額なども踏まえて、自分のマイバックを探してみましょう！<br>'
             '(参考資料　https://cyql.jp/infographics/lca/;)';
             break;
+
         case 2:
-            //ここに書く
             Type.color="#004C88"; //テーマカラ-
             Type.info='';   // 基本情報
             Type.item='マイボトル';  // アイテム
@@ -181,7 +181,9 @@ function accumulate(){
     
     let beans =  '<div class = "beans"> <div id = "bold">'+Type.beansSub+'</div>'+Type.beans+'</div>';
 
-    let twinfo = '<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" data-text="【阪大生ファッション×エコアイテム診断結果】あなたのエコアイテムは…'+Type.item+'！#阪大生診断">Tweet</a>';
+    let twinfo = '<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" '
+    'data-show-count="false" data-text="【阪大生ファッション×エコアイテム診断】<br>あなたのエコアイテムは…'
+    +Type.item+' …！'+Type.item+'を持って阪大へ行こう！ #阪大生診断">Tweet</a>';
     document.getElementById("resultsheet").innerHTML=resultintro+info+beans+twinfo;
     //color調整
     document.getElementById("critical").style.color=Type.color;

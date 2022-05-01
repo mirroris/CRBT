@@ -21,7 +21,7 @@
     text-align: center;
     display:block;
     color:#28424D;
-    line-height: 2vw;
+    line-height: 5vw;
 }
 
 .beans{
@@ -49,6 +49,7 @@
     display:inline;
     color:#F5F3E7;
     text-align:left;
+    margin-bottom:3vw;
 }
 
 

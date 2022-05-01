@@ -113,7 +113,7 @@ function accumulate(){
             Type.item="充電式カイロ";  // アイテム
             Type.img="result4.png";   // キャラ画像
             Type.beans="モバイルバッテリー×充電式カイロ"; //豆知識
-            Type.beansSub="さまざまな充電式カイロが売られていますが、冬しか使えないのは少し物足りない、という方にはモバイルバッテリーの機能も兼ね備えている充電式カイロがおすすめです!<br>'mottole MTL-E029'というカイロはスイッチを入れると5秒で暖まり、5～8時間は連続使用できます。1年中活用できるだけでなく、地震による停電などの緊急時でも使用可能です。他のUSB機器への充電もできるため、普段はマばいるバッテリーとして持ち運び、寒い冬にはカイロとして活躍してくれる優れものです";
+            Type.beansSub="さまざまな充電式カイロが売られていますが、冬しか使えないのは少し物足りない、という方にはモバイルバッテリーの機能も兼ね備えている充電式カイロがおすすめです!<br>'mottole MTL-E029'というカイロはスイッチを入れると5秒で暖まり、5～8時間は連続使用できます。1年中活用できるだけでなく、地震による停電などの緊急時でも使用可能です。他のUSB機器への充電もできるため、普段はモバイルバッテリーとして持ち運び、寒い冬にはカイロとして活躍してくれる優れものです！";
             break;
 
         case 5:
@@ -166,7 +166,7 @@ function accumulate(){
    
     let info = '<div class = "iteminfo" id = "iteminfo">'+Type.info+"</div>";
    
-    let beans =  '<div class = "beans"> <div id="top">【'+Type.beans+'】</div><br><div id="normal">'+Type.beansSub+'</div></div>';
+    let beans =  '<div class = "beans"> <div id="top">【'+Type.beans+'】<br></div><div id="normal">'+Type.beansSub+'</div></div>';
     let twinfo = '<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" data-text="【阪大生ファッション×エコアイテム診断】あなたのエコアイテムは…' +Type.item+ '…！' +Type.item+ 'を持って阪大へ行こう！ #阪大生診断"> Tweet</a>';
     document.getElementById("resultsheet").innerHTML=resultintro+info+beans+twinfo;
     //color調整

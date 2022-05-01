@@ -21,11 +21,10 @@
     text-align: center;
     display:block;
     color:#28424D;
-    margin: 2vw;
 }
 
 .beans{
-    font-size: 3vw;
+    font-size: 5vw;
     padding:2vw;
     width: 100%;
     background-color:#28424D;
@@ -36,7 +35,7 @@
 }
 
 #top{
-    font-size:3vw;
+    font-size:5vw;
     color:#F5F3E7;
 }
 
@@ -50,7 +49,7 @@
     font-size:2.5vw;
     display:inline;
     color:#F5F3E7;
-    text-align: center;
+    text-align:left;
 }
 
 
@@ -62,7 +61,8 @@
 
 #small{
     Font-family:"游明朝";
-    font-size:1.5vw;
+    font-size:1.8vw;
+    text-align:right;
 }
 
 .character{

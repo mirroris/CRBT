@@ -116,12 +116,40 @@ function accumulate(){
             Type.beansSub='【豆知識】本当にエコバックってエコなの？？';
             break;
         case 5:
+            //ここに書く
+            Type.color="#"; //テーマカラ-
+            Type.info='';   // 基本情報
+            Type.item='マイ箸';  // アイテム
+            Type.img='result5.png';   // キャラ画像
+            Type.beans=''; //豆知識
+            Type.beansSub='【豆知識】本当にエコバックってエコなの？？';
             break;
         case 6:
+            //ここに書く
+            Type.color="#"; //テーマカラ-
+            Type.info='';   // 基本情報
+            Type.item='節電タップ';  // アイテム
+            Type.img='result6.png';   // キャラ画像
+            Type.beans=''; //豆知識
+            Type.beansSub='【豆知識】本当にエコバックってエコなの？？';
             break;
         case 7:
+            //ここに書く
+            Type.color="#FCBD00"; //テーマカラ-
+            Type.info='';   // 基本情報
+            Type.item='扇風機';  // アイテム
+            Type.img='result7.png';   // キャラ画像
+            Type.beans=''; //豆知識
+            Type.beansSub='【豆知識】本当にエコバックってエコなの？？';
             break;
         case 8:
+            //ここに書く
+            Type.color="#EC6A04"; //テーマカラ-
+            Type.info='';   // 基本情報
+            Type.item='ソーラーモバイルバッテリー';  // アイテム
+            Type.img='result8.png';   // キャラ画像
+            Type.beans=''; //豆知識
+            Type.beansSub='【豆知識】本当にエコバックってエコなの？？';
             break;
     }
     console.log(chtype+1);

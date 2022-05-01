@@ -9,6 +9,7 @@
     z-index:20;
     width:100%;	
     box-sizing : border-box;
+    margin: 8vW,2vw,0,2vw;
 }
 
 #top{
@@ -23,11 +24,9 @@
     font-size:7vw;
     font-weight:bold;
     color:#F5F3E7;
-    margin-bottom:3vw;
 }
 
 .iteminfo{
-    margin:10vw,4vw,4vw,10vw;
     width:100%;
     background-color:#F5F3E7;
     Font-family:"游明朝";
@@ -38,7 +37,6 @@
 }
 
 .beans{
-    margin:10vw,4vw,4vw,10vw;
     width: 100%;
     background-color:#28424D;
     color:#F56E51;
@@ -51,7 +49,6 @@
     display:inline;
     color:#F5F3E7;
     text-align:left;
-    margin-bottom:3vw;
 }
 
 

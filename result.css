@@ -9,14 +9,15 @@
     z-index:20;
     width:100%;	
     box-sizing : border-box;
-    margin: 8vW,2vw,0,2vw;
+    padding-top: 5vw;
+    margin: 2vW,2vw,0,2vw;
 }
 
 #top{
     font-size:5vw;
     color:#F5F3E7;
     text-align: center;
-    margin-top:3vw;
+    padding-top:3vw;
     margin-bottom:3vw;
 }
 
@@ -41,6 +42,7 @@
     background-color:#28424D;
     color:#F56E51;
     color:#F5F3E7;
+    padding:0,2vw,0,2vw;
 }
 
 

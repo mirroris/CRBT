@@ -3,59 +3,67 @@
     font-family: "meiryo","HiraKakuProN-W3","ヒラギノ明朝 ProN W3",sans-serif;
     display :none;
     text-align: center;
-    background-color:#e31837;
+    color:#F5F3E7;
     left:0px;
     top:0px;
     z-index:20;
     width:100%;	
-    padding-top: 5vw;
-    margin-bottom:5vw;
     box-sizing : border-box;
+    padding-top: 5vw;
+    margin: 2vW,2vw,0,2vw;
 }
 
-.iteminfo{
-    padding-top:2vw;
-    padding-bottom:2vw;
-    width:100%;
-    background-color:white;
+#top{
+    font-size:5vw;
+    color:#F5F3E7;
     text-align: center;
-    display:block;
-}
-
-.beans{
-    padding-top:2vw;
-    padding-bottom:2vw;
-    width:100%;
-    background-color:black;
-    text-align: center;
-    color:white;
-    color:rgb(189, 189, 189);
+    padding-top:3vw;
+    margin-bottom:3vw;
 }
 
 #bold{
-    Font-family:"Times";
-    font-size:5vw;
-    color:white;
+    font-size:7vw;
     font-weight:bold;
+    color:#F5F3E7;
 }
 
-#normal{
+.iteminfo{
+    width:100%;
+    background-color:#F5F3E7;
     Font-family:"游明朝";
-    font-size:3vw;
-    color:rgb(176, 176, 176);
-    display:inline;
+    text-align: center;
+    display:block;
+    color:#28424D;
+    line-height: 9vw;
 }
+
+.beans{
+    width: 100%;
+    background-color:#28424D;
+    color:#F56E51;
+    color:#F5F3E7;
+    padding:0,2vw,0,2vw;
+}
+
+
+#normal{
+    font-size:2.5vw;
+    display:inline;
+    color:#F5F3E7;
+    text-align:left;
+}
+
 
 #critical{
     Font-family:"游明朝";
     font-size:9vw;
-    color:#e31837;
     display:inline;
 }
 
 #small{
     Font-family:"游明朝";
-    font-size:1vw;
+    font-size:2.5vw;
+    text-align:right;
 }
 
 .character{
@@ -72,7 +80,7 @@
 .resize{
     height:100%;
     width:auto;
-    
+    text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;

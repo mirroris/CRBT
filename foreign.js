@@ -156,7 +156,14 @@ function accumulate(){
     //shareボタンの可視化
     let twdata = document.getElementById("hault");
     twdata.style.opacity=1;
-    twdata.setAttribute("data-text","あなたに似合うアイテムは..."+Type.item+"!! #阪大キャリボト診断");
+    let textdata = document.getElementsByClassName("twitter-share-button");
+    
+    /*
+    let twintro="";
+    for(let i = 0; i<50;i++) twintro+=Type.info[i];
+    twintro+="...";
+*/
+    textdata[0].setAttribute("data-text","あなたに似合うアイテムは..."+Type.item+"!!#阪大キャリボト診断");
 
     //リザルトに設定
     document.getElementById("question6").style.display="none";

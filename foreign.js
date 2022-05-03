@@ -156,7 +156,6 @@ function accumulate(){
     //shareボタンの可視化
     let twdata = document.getElementById("hault");
     twdata.style.opacity=1;
-    twdata.innerHTML='<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="あなたも是非阪大キャリボト診断を！あなたに似合うアイテムは..."+Type.item+"です" data-url="https://mirroris.github.io/CRBT/" data-show-count="false">Twitterで共有する</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>';;
 
     //リザルトに設定
     document.getElementById("question6").style.display="none";
@@ -176,7 +175,6 @@ function accumulate(){
     document.getElementById("resultsheet").innerHTML=resultintro+info+beans;
     //color調整
     document.getElementById("critical").style.color=Type.color;
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     return;
 }

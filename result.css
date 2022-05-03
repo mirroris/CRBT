@@ -127,10 +127,11 @@
     text-align:center;
     display :block;
     background-color: rgba(255,255,255,0.5);
-    height:5vw;
+    height:7vw;
     width:100%;
     position :fixed;
     bottom:0px;
     font-family:"meiryo","HiraKakuProN-W3","ヒラギノ明朝 ProN W3",sans-serif;
     font-weight:bold;
+    margin-bottom:2vw;
 }

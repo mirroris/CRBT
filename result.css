@@ -125,4 +125,7 @@
 #hault{
     opacity:0;
     text-align:center;
+    display :block;
+    background-color: rgba(255,255,255,0.25);
+    height:5vw;
 }

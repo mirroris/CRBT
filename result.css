@@ -131,5 +131,6 @@
     width:100%;
     position :fixed;
     bottom:0px;
-    font-family: ;
+    font-family:"meiryo","HiraKakuProN-W3","ヒラギノ明朝 ProN W3",sans-serif;
+    font-weight:bold;
 }

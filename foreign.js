@@ -154,6 +154,9 @@ function accumulate(){
     console.log(chtype+1);
     //性格に合わせたデータを取得
 
+    //shareボタンの可視化
+    
+    document.getElementById("hault").style.display="block";
     //リザルトに設定
     document.getElementById("question6").style.display="none";
     let result = document.getElementById("resultsheet");

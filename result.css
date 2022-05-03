@@ -45,6 +45,15 @@
     padding:0,2vw,0,2vw;
 }
 
+.beansSub{
+    width: 100%;
+    background-color:#28424D;
+    color:#F56E51;
+    color:#F5F3E7;
+    padding:0,2vw,0,2vw;
+    text-align:left;
+    display :block;
+}
 
 #normal{
     font-size:2.5vw;

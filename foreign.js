@@ -154,9 +154,9 @@ function accumulate(){
     //性格に合わせたデータを取得
 
     //shareボタンの可視化
-    
     let twdata = document.getElementById("hault");
     twdata.style.opacity=1;
+    twdata.dataText = "あなたもキャリボト診断どうですか？？";
 
     //リザルトに設定
     document.getElementById("question6").style.display="none";

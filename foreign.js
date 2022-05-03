@@ -168,7 +168,7 @@ function accumulate(){
    
     let beans =  '<div class = "beans"> <div id="top"><br>【'+Type.beans+'】<br></div><div class="beansSub"><div class = "supervisor">'+Type.beansSub+'<br></div></div></div>';
     let twinfo = '<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="あなたも是非阪大キャリボト診断を！" data-url="https://mirroris.github.io/CRBT/" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>';
-    document.getElementById("resultsheet").innerHTML=resultintro+info+beans+twinfo;
+    document.getElementById("resultsheet").innerHTML=resultintro+info+beans;
     //color調整
     document.getElementById("critical").style.color=Type.color;
 

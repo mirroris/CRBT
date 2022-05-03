@@ -164,6 +164,7 @@ function accumulate(){
     twintro+="...";
 */
     textdata[0].setAttribute("data-text","あなたに似合うアイテムは..."+Type.item+"!!#阪大キャリボト診断");
+    console.log(textdata[0].href);
 
     //リザルトに設定
     document.getElementById("question6").style.display="none";

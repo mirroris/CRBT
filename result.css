@@ -112,3 +112,10 @@
     display:block;
     text-align:right;
 }
+
+
+.supervisor{
+    text-align:left;
+    display :block;
+    width:80%;
+}

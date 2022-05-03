@@ -159,7 +159,7 @@ function accumulate(){
     twdata.style.opacity=1;
     twdata.dataText = "あなたの診断結果は...";
     //リザルトに設定
-    document.getElementById("question6").display = none;
+    document.getElementById("question6").display = "none";
     let result = document.getElementById("resultsheet");
     //リザルトを表示
     result.style.display = "block";

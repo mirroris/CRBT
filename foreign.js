@@ -156,7 +156,7 @@ function accumulate(){
     //shareボタンの可視化
     let twdata = document.getElementById("hault");
     twdata.style.opacity=1;
-    twdata.dataText = "あなたもキャリボト診断どうですか？？";
+    twdata.textContent = "あなたもキャリボト診断どうですか？？";
 
     //リザルトに設定
     document.getElementById("question6").style.display="none";

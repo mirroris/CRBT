@@ -156,7 +156,7 @@ function accumulate(){
 
     //shareボタンの可視化
     
-    document.getElementById("hault").style.display="block";
+    document.getElementById("hault").style.opacity=1;
     //リザルトに設定
     document.getElementById("question6").style.display="none";
     let result = document.getElementById("resultsheet");

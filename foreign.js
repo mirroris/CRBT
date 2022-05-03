@@ -1,4 +1,3 @@
-
 var valueofAnswerTab ={
     11:[2.1,5.1,2.1,5.1,10.1,2.1,2.1,2.1],
     12:[10.1,10.1,10.1,2.1,2.1,2.1,5.1,2.1],
@@ -144,7 +143,7 @@ function accumulate(){
             break;
         case 8:
             Type.color="#EC6A04"; //テーマカラ-
-            Type.info="<div id = 'critical'>活</div>気に満ちていて情熱的な性格です。<br>新しいことにチャレンジしたり、グループで活動したりすることが好きです。アクティブなので旅行やアウトドアに行くことが多い方です。スマホで動画見たりするのも好きなので、屋外でスマホの充電が切れるなんて耐えられない。<br>そんなあなたには、アウトドアにも欠かせないソーラーモバイルバッテリーがおススメです。これがあればどこにでも出掛けられます！";   // 基本情報
+            Type.info="<div id = 'critical'>活</div>気に満ちていて情熱的な性格です。新しいことにチャレンジしたり、グループで活動したりすることが好きです。アクティブなので旅行やアウトドアに行くことが多い方です。スマホで動画見たりするのも好きなので、屋外でスマホの充電が切れるなんて耐えられない。そんなあなたには、アウトドアにも欠かせないソーラーモバイルバッテリーがおススメです。これがあればどこにでも出掛けられます！";   // 基本情報
             Type.item="ソーラーモバイルバッテリー";  // アイテム
             Type.img="result8.png";   // キャラ画像
             Type.beans="世界で一番薄いソーラー充電器「YOLK solar paper」"; 
@@ -155,11 +154,10 @@ function accumulate(){
     //性格に合わせたデータを取得
 
     //shareボタンの可視化
-    let twdata = document.getElementById("hault");
-    twdata.style.opacity=1;
-    twdata.dataText = "あなたの診断結果は...";
+    
+    document.getElementById("hault").style.display="block";
     //リザルトに設定
-    document.getElementById("question6").display = "none";
+    document.getElementById("question6").style.display="none";
     let result = document.getElementById("resultsheet");
     //リザルトを表示
     result.style.display = "block";

@@ -156,7 +156,7 @@ function accumulate(){
     //shareボタンの可視化
     let twdata = document.getElementById("hault");
     twdata.style.opacity=1;
-    let textdata = document.getElementsByClassName("twitter-share-button");
+    let textdata = document.getElementById("final");
     
     /*
     let twintro="";

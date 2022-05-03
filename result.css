@@ -129,6 +129,6 @@
     background-color: rgba(255,255,255,0.5);
     height:5vw;
     width:100%;
-    position :flex;
+    position :fixed;
     bottom:0px;
 }

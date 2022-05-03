@@ -164,9 +164,9 @@ function accumulate(){
     let resultChara = '<div class = "character">'+'<img src='+Type.img+' class="resize">';
     let resultintro = resultChara+"</div><br>"+"<div id = 'top'>あなたにおすすめのエコアイテムは</div><br><div id = 'bold'>「"+Type.item+"」</div>"
    
-    let info = '<br><div class = "iteminfo" id = "iteminfo">'+Type.info+"<br></div>";
+    let info = '<br><div class = "supervisor"><div class = "iteminfo" id = "iteminfo">'+Type.info+"<br></div></div>";
    
-    let beans =  '<div class = "beans"> <div id="top"><br>【'+Type.beans+'】<br></div><div class="beansSub">'+Type.beansSub+'<br></div></div>';
+    let beans =  '<div class = "beans"> <div id="top"><br>【'+Type.beans+'】<br></div><div class = "supervisor"><div class="beansSub">'+Type.beansSub+'<br></div></div></div>';
     let twinfo = '<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-txt = "【阪大生ファッション×エコアイテム診断】あなたのエコアイテムは…' +Type.item+ '…！' +Type.item+ 'を持って阪大へ行こう！ #阪大生診断" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>';
     document.getElementById("resultsheet").innerHTML=resultintro+info+beans+twinfo;
     //color調整

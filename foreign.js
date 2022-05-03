@@ -176,6 +176,7 @@ function accumulate(){
     document.getElementById("resultsheet").innerHTML=resultintro+info+beans;
     //color調整
     document.getElementById("critical").style.color=Type.color;
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     return;
 }
